@@ -1,5 +1,82 @@
 [
   {
+    "source_url": "https://www.glassesusa.com/black-medium/revel-slater/32-p6543.html",
+    "title": null,
+    "product_name": "Revel Slater Black",
+    "brand": "Revel",
+    "description": "The Revel Slater is a stylish sunglasses frame that's impossible to ignore. Hand crafted from lightweight TR-90, it features a high keyhole-shaped nose bridge, flexible arms and a lustrous hue.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "43 mm / 1.69\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "144 mm / 5.67\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Black",
+    "price": 94.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p6543-u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p6543_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p6543-u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p6543_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p6543_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "integrated nose pads": "Yes",
+      "progressive / bifocal eligible": "Yes",
+      "lightweight": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-blackblue-extra-large/oakley-oo9102-holbrook/46-000638.html",
+    "title": null,
+    "product_name": "Oakley Holbrook Shiny Black, Blue",
+    "brand": "Oakley",
+    "description": "The Oakley Holbrook is a stylish, full-rimmed frame with a timeless design. Crafted from durable and lightweight O-Matter, it sports beefy arms and Oakley’s high definition optics for the ultimate style and clarity.",
+    "measurements": {
+      "lens_width": "57 mm / 2.24\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "137 mm / 5.39\""
+    },
+    "size": "extra large",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Wrap",
+    "color": "Shiny Black, Blue",
+    "price": 184.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-000638_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-000638_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-000638_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-000638_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-000638_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
     "source_url": "https://www.glassesusa.com/black-medium/ray-ban-rb2132-new-wayfarer-/46-p6709.html",
     "title": null,
     "product_name": "Ray-Ban RB2132 New Wayfarer Black",
@@ -17,6 +94,3125 @@
     "rim_type": "Full-Rim",
     "shape": "Rectangle, Wayframe",
     "color": "Black",
+    "price": 178.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289421795_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289421795_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289421795_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289421795_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289421795_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/tortoise-medium/amelia-e-heather/32-p7301.html",
+    "title": null,
+    "product_name": "Amelia E. Heather Tortoise",
+    "brand": "Amelia E.",
+    "description": "The Amelia E. Heather is a glamorous frame with an exciting color mix. Crafted from premium acetate, sporting a mix of boldness and sleekness, its presence is undeniable.",
+    "measurements": {
+      "lens_width": "54 mm / 2.13\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "15 mm / 0.59\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Tortoise",
+    "price": 104.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p7301_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-p7301_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-p7301_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-p7301_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-p7301_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetal-large/ray-ban-rb3498/46-m6698.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3498 Gunmetal",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban RB3498 is a sleek and modern frame that oozes an effortless cool. Crafted from lightweight metal, its muscular arms and clean design are made to comfortably catch the breeze.",
+    "measurements": {
+      "lens_width": "61 mm / 2.4\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle, Wrap",
+    "color": "Gunmetal",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6698_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-6698_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-6698_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-6698_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-6698_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blacktortoise-large/amelia-e-alexis/32-000725.html",
+    "title": "Amelia E. Alexis Black, Tortoise Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Amelia E. Alexis Black, Tortoise",
+    "brand": "Amelia E.",
+    "description": "The Amelia E. Alexis is an oversized cat-eye frame that leaves a lasting impression. Crafted from sleek acetate, it features a saddle bridge, dipping browline and rich hue.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Black, Tortoise",
+    "price": 104.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000725_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000725_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000725_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000725_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000725_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gold-large/ray-ban-rb3025-aviator/46-m6703.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3025 Aviator Large Metal Gold",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3025’s tear-shaped frame is a quirky play on the classic aviator style. With its double-bridge, thin yet durable frame, it is equally suited for cruising on a Chopper or at 35,000 feet altitude.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gold",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6703_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6703_f_1_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6703_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6703_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6703_f_1_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/oakley-oo9014-gascan/46-p0s0382.html",
+    "title": null,
+    "product_name": "Oakley Gascan Shiny Black",
+    "brand": "Oakley",
+    "description": "Driven by innovation and performance, Oakley is known for eyewear built to handle real movement. With a focus on advanced design, secure fits, and bold aesthetics, Oakley glasses and sunglasses are made for those who like their style with an edge and their eyewear ready for action.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle, Wrap",
+    "color": "Shiny Black",
+    "price": 139.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0382_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_f.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p0s0382_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/ottoto-magnus/32-m7674.html",
+    "title": null,
+    "product_name": "Ottoto Magnus Black",
+    "brand": "Ottoto",
+    "description": "The Ottoto Magnus is a classic aviator frame with a modern twist. Crafted in lightweight monel, its double bridge and elegant arms flaunt a retro design with plenty of contemporary chic.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "48 mm / 1.89\"",
+      "bridge_width": "15 mm / 0.59\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Black",
+    "price": 114.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-7674_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-7674_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-7674_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-7674_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-7674_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgold-large/ray-ban-rb3016-clubmaster/46-m6700.html",
+    "title": "Ray-Ban RB3016 Clubmaster Black, Gold Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Ray-Ban RB3016 Clubmaster Black, Gold",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban Clubmaster is the iconic, semi-rimless frame that turned Ray-Ban into the brand it is today. Boasting its signature metal accents and supported by its classic sturdy arms, this frame will turn you into a master of any club.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Acetate, Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Browline",
+    "color": "Black, Gold",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6700_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6700_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6700_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6700_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6700_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/ray-ban-rb4387/46-001661.html",
+    "title": null,
+    "product_name": "Ray-Ban RB4387 Shiny Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4387 is a stylish and laid-back round frame oozing summertime cool. Crafted from lightweight yet durable nylon fiber, it features a keyhole bridge, sleek arms and polished brand logo.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "48 mm / 1.89\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Shiny Black",
+    "price": 160.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001661-u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001661_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001661-u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001661_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001661_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "integrated nose pads": "Yes",
+      "progressive / bifocal eligible": "Yes",
+      "lightweight": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/ray-ban-rb4171-erika/46-p6720.html",
+    "title": null,
+    "product_name": "Ray-Ban RB4171 Erika Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4171 Erika is a stylish frame with undeniable presence. Featuring rubber fronts, sleek arms and a luxurious hue, this frame oozes with a classic elegance.",
+    "measurements": {
+      "lens_width": "54 mm / 2.13\"",
+      "lens_height": "46 mm / 1.81\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Black",
+    "price": 176.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p6720_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p6720_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p6720_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p6720_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p6720_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/bluecleartortoise-medium/muse-nick-blue/clear/tortoise/32-001893.html",
+    "title": "Muse Nick Blue, Clear, Tortoise Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Nick Blue, Clear, Tortoise",
+    "brand": "Muse",
+    "description": "The Muse Nick is classy sunglasses frame oozing effortless cool. Crafted from premium acetate, it features a keyhole bridge, a lustrous hue, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "49 mm / 1.93\"",
+      "lens_height": "40 mm / 1.57\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Narrow",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Blue, Clear, Tortoise",
+    "price": 96.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001893_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001893_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001893_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001893_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001893_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgreen-large/ray-ban-2027-predator-2/46-p7812.html",
+    "title": null,
+    "product_name": "Ray-Ban RB2027 Predator 2 Black, Green",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 2027 is a sporty take on the iconic wayfarer model. Rectangular and slightly wrap-around, it features adjustable silicon nose-pads and no-slip temple tips for extra grip.",
+    "measurements": {
+      "lens_width": "62 mm / 2.44\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "19 mm / 0.75\"",
+      "temple_length": "130 mm / 5.12\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black, Green",
+    "price": 178.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7812_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p7812_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p7812_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p7812_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-p7812_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-small/ray-ban-rb4165-justin/46-p6716.html",
+    "title": null,
+    "product_name": "Ray-Ban RB4165 Justin Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4165 is a bold frame packing plenty of attitude. Crafted from premium acetate, its sleek arms and shark fin temples sit just right for someone looking to make an impression.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "16 mm / 0.63\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Narrow",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Black",
+    "price": 176.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6716_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6716_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6716_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6716_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6716_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetal-large/ottoto-leonardo/32-000226.html",
+    "title": null,
+    "product_name": "Ottoto Leonardo Gunmetal",
+    "brand": "Ottoto",
+    "description": "The Ottoto Leonardo is a full-rimmed square aviator frame crafted from lightweight monel. Sporting a stylish double bridge, elegant arms and adjustable silicone nose pads for a seamless mix of form and function.",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gunmetal",
+    "price": 104.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000226_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000226_f_4.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000226_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000226_s_3.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000226_f_4.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/clear-medium/revel-victorious-clear/32-002360.html",
+    "title": null,
+    "product_name": "Revel Victorious Clear",
+    "brand": "Revel",
+    "description": "One of our GlassesUSA-only brands, Revel eyewear brings a sporty, street-inspired edge to everyday style. With bold shapes, energetic colors, and a playful urban attitude, Revel frames are made for those who like their look confident, expressive, and full of movement. Featuring special capsules available only on our site, Revel is all abo",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Clear",
+    "price": 78.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002360_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/ray-ban-2140-wayfarer/46-p6718.html",
+    "title": null,
+    "product_name": "Ray-Ban RB2140 Wayfarer Shiny Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban Wayfarer is the iconic frame that ushered in a new era of cool. Without it, there probably would have never been a Mad Men. Crafted from high-grade acetate this frame continues to leave a mark just as it did in the early 1950's.",
+    "measurements": {
+      "lens_width": "50 mm / 1.97\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "22 mm / 0.87\"",
+      "temple_length": "150 mm / 5.91\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Wayframe",
+    "color": "Shiny Black",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6718_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6718_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6718_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6718_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-6718_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgunmetal-extra-large/oakley-oo9417-holbrook-xl/46-000810.html",
+    "title": null,
+    "product_name": "Oakley OO9417 Holbrook XL Black, Gunmetal",
+    "brand": "Oakley",
+    "description": "The Oakley Holbrook XL is a stylish, full-rimmed frame with a timeless design. Crafted from durable and lightweight O-Matter, it sports beefy arms and Oakley’s high definition optics for ultimate style and clarity.",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "45 mm / 1.77\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "137 mm / 5.39\""
+    },
+    "size": "extra large",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Matte Black",
+    "price": 237.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000810_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000810_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000810_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000810_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000810_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-medium/muse-m-classic/32-p9146.html",
+    "title": null,
+    "product_name": "Muse M Classic Matte Black",
+    "brand": "Muse",
+    "description": "The Muse M Classic exudes an effortless and timeless cool. Crafted from premium acetate, it features sleek arms, durable spring hinges and a rich hue.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "41 mm / 1.61\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Wayframe",
+    "color": "Black",
+    "price": 118.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p9146_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p9146_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p9146_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p9146_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-p9146_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgold-extra-large/amelia-e-hepburn/32-000224.html",
+    "title": "Amelia E. Hepburn Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Amelia E. Hepburn Black",
+    "brand": "Amelia E.",
+    "description": "If I were to be honest, I’m not sure if I love these on my face frame. I wanted a pair of sunglasses with the adjustable nose pads and these ARE very comfortable and meet that need. I’ll keep them even though I’m unsure of the style",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Black",
+    "price": 104.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000224_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000224_f_3.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000224_f_3.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000224_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000224_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000224_f_3.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/brownclear-medium/muse-edwards/32-001831.html",
+    "title": null,
+    "product_name": "Muse Edwards Orange",
+    "brand": "Muse",
+    "description": "The Muse Edwards is a snazzy sunglasses frame that's impossible to ignore. Crafted from premium acetate, it features a retro-inspired keyhole bridge, wire-core arms for flexibility and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "48 mm / 1.89\"",
+      "lens_height": "43 mm / 1.69\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Orange",
+    "price": 84.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001831_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001831_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001831_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001831_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001831_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/oakley-oo9449-gibston/46-001860.html",
+    "title": null,
+    "product_name": "Oakley OO9449 Gibston Prizm Shiny Black",
+    "brand": "Oakley",
+    "description": "The Oakley Gibston is a stylish wrap-around frame built for all-day comfort. Crafted from lightweight O-matter, it features the 3-point fit for perfect alignment, translucent hue and molded nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "61 mm / 2.4\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "132 mm / 5.2\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle, Wrap",
+    "color": "Shiny Black",
+    "price": 150.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001860_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001860_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001860_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001860_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001860_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-blackglitter-large/coach-hc8264/46-001768.html",
+    "title": null,
+    "product_name": "Coach HC8264 Shiny Black",
+    "brand": "Coach",
+    "description": "The Coach HC8264 is a stylish oversized frame that's impossible to ignore. Crafted from premium acetate, it features flattering curves, sleek arms and a luxurious brand logo.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "48 mm / 1.89\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Acetate, Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Shiny Black",
+    "price": 369.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001768_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001768_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001768_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001768_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001768_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient, Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browntortoise-large/vogue-vo2871s/46-002483.html",
+    "title": null,
+    "product_name": "Vogue VO2871S Brown, Tortoise",
+    "brand": "Vogue",
+    "description": "The Vogue VO2871S is a full-rimmed sunglasses frame crafted from lightweight nylon fiber. Sporting exciting colors, unique patterns on the arms and flex hinges, it seamlessly combines summertime form and function",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "16 mm / 0.63\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Oversized, Oval",
+    "color": "Brown, Tortoise",
+    "price": 225.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002483_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002483_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002483_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002483_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002483_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/tortoise-large/ray-ban-4098-jackie-ohh-ii/46-000938.html",
+    "title": "Ray-Ban RB4098 Jackie Ohh II Tortoise Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Ray-Ban RB4098 Jackie Ohh II Tortoise",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4098 Jackie Ohh II is an oversized frame with undeniable presence. Crafted from lightweight propionate, it features a saddle bridge, polished arms and signature brand detailing.",
+    "measurements": {
+      "lens_width": "60 mm / 2.36\"",
+      "lens_height": "52 mm / 2.05\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Oversized, Oval",
+    "color": "Tortoise",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000938_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000938_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000938_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000938_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000938_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/oakley-oo9096-fuel-cell/46-000454.html",
+    "title": null,
+    "product_name": "Oakley Fuel Cell Black",
+    "brand": "Oakley",
+    "description": "The Oakley Fuel Cell is a smooth wrap-around frame that's the epitome of cool. Sporting bulky arms and a smooth finish, it combines a smart look with an athletic and secure group.",
+    "measurements": {
+      "lens_width": "60 mm / 2.36\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "19 mm / 0.75\"",
+      "temple_length": "130 mm / 5.12\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 204.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000454_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000454__f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000454_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000454_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/000454__f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized, Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/tortoise-medium/ray-ban-4340-wayfarer/46-p0s0091.html",
+    "title": null,
+    "product_name": "Ray-Ban 4340 Wayfarer Tortoise, Green",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4340 is a sleek and shiny version of the iconic wayfarer. Crafted from lightweight and flexible plastic polymers, it exudes an undeniable cool with its clean design, rich hue and glistening silver rivets.",
+    "measurements": {
+      "lens_width": "50 mm / 1.97\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "22 mm / 0.87\"",
+      "temple_length": "150 mm / 5.91\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Wayframe",
+    "color": "Tortoise, Green",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0091_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0091_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0091_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0091_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p0s0091_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/ray-ban-rb3026-aviator-large-metal/46-m0s0074.html",
+    "title": "Ray-Ban 3026 Aviator Large Metal Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Ray-Ban RB3026 Aviator Large Metal Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3026 Aviator Large Metal is a stylish twist on the iconic aviator design. Sporting a lightweight build, it's comfortable as it is stylish with silicone nose pads and coated tips for a secure grip.",
+    "measurements": {
+      "lens_width": "62 mm / 2.44\"",
+      "lens_height": "55 mm / 2.17\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Black",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0074_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-m0s0074_f.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-m0s0074_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-m0s0074_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-m0s0074_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-m0s0074_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browntortoise-medium/muse-isaac/32-001843.html",
+    "title": null,
+    "product_name": "Muse Isaac Brown, Tortoise",
+    "brand": "Muse",
+    "description": "The Muse Isaac is a snazzy full-rimmed sunglasses frame that's impossible to ignore. Crafted from high-grade acetate, it features a keyhole bridge, a trendy translucent hue, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "45 mm / 1.77\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Brown, Tortoise",
+    "price": 88.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001843_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001843_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001843_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001843_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001843_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/progear-dash-2-s-1282/49-000022.html",
+    "title": null,
+    "product_name": "Progear Dash 2 S-1282 Black",
+    "brand": "Progear",
+    "description": "The Progear Dash 2 is a super stylish & comfortable pair of wrap running sunglasses. Crafted from lightweight and flexible TR-90, it features rubberized nose pads for a no-slip grip, complemented by an adjustable strap connected to the temple tips.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Semi-Rimless",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 156.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_u_1.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000022_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackblue-extra-large/ray-ban-rb4264/46-p7826.html",
+    "title": null,
+    "product_name": "Ray-Ban 4264 Black, Blue",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4264 is a sporty take on the iconic wayfarer model. Rectangular and slightly wrap-around, it features a more bulked up frame than the classic wayfarer and adjustable silicon nose-pads for extra grip.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "extra large",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Black, Blue",
+    "price": 272.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7826_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7826_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7826_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7826_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-p7826_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored, Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgrayblue-large/costa-del-mar-fantail/46-001721.html",
+    "title": null,
+    "product_name": "Costa Del Mar 6S9006 Fantail Black, Gray, Blue",
+    "brand": "Costa Del Mar",
+    "description": "The Costa Fantail is an eco-friendly sports frame designed to perfectly accompany your next adventure. Crafted from durable and flexible bio-based resin, these sunglasses were built to take whatever you throw at them.",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "127 mm / 5\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black, Gray, Blue",
+    "price": 233.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001721_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001721_f_1.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001721_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001721_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001721_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-001721_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored, Polarized, Curved",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/revel-royer-shiny-black/32-001977.html",
+    "title": null,
+    "product_name": "Revel Royer Shiny Black",
+    "brand": "Revel",
+    "description": "The Revel Royer is a stylish sunglasses frame that's impossible to ignore. Crafted from high-grade bio-acetate, it features a keyhole bridge, wire-core arms and a trendy translucent hue for an added dash of flash. Bio-acetate is better for our planet, made almost entirely from renewable sources.",
+    "measurements": {
+      "lens_width": "47 mm / 1.85\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate, Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Oval",
+    "color": "Shiny Black",
+    "price": 74.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001977_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001977_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001977_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001977_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001977_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-medium/wiley-x-slay-black/67-000327.html",
+    "title": null,
+    "product_name": "Wiley X Slay Black",
+    "brand": "Wiley X",
+    "description": "The Wiley X Slay is a slick wrap-around frame that's built for anything life may throw at you, meeting the ANSI Z87.1 high-velocity safety glasses standards. Crafted from high-grade Triloid nylon, it features the classic WX on the temples, extra ventilation on the sides, and molded nose pads for a comfortable fit.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 188.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316010122_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/712316010122_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/712316010122_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/712316010122_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/712316010122_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/712316010122_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/revel-par-shiny-black/28-000034.html",
+    "title": null,
+    "product_name": "Revel Par Shiny Black",
+    "brand": "Revel",
+    "description": "One of our GlassesUSA-only brands, Revel eyewear brings a sporty, street-inspired edge to everyday style. With bold shapes, energetic colors, and a playful urban attitude, Revel frames are made for those who like their look confident, expressive, and full of movement. Featuring special capsules available only on our site, Revel is all abo",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Acetate, Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Shiny Black",
+    "price": 94.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000034_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000034_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000034_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000034_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000034_u_2.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000034_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetalblack-medium/michael-kors-mk5004-chelsea/96-m7491.html",
+    "title": null,
+    "product_name": "Michael Kors MK5004 Chelsea Gunmetal, Black",
+    "brand": "Michael Kors",
+    "description": "The Michael Kors Chelsea is a refreshing take on the iconic aviator style. Crafted from high-grade monel, it features a dazzling double bridge and polished arms for tasteful affluence on a day out in the sun.",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "53 mm / 2.09\"",
+      "bridge_width": "13 mm / 0.51\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gunmetal, Black",
+    "price": 308.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-m7491_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/96-m7491_f.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/96-m7491_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/96-m7491_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/96-m7491_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/96-m7491_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/goldgreen-medium/ray-ban-rb3447-round-metal/46-m0s0202.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3447 Round Metal Gold, Green",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3447 Round Metal is a well-rounded frame that exudes a mix of control and sophistication. Sporting rubber-plated arms and adjustable silicone nose-pads for added comfort, the lightweight metal frame is surprisingly sturdy despite its appearance.",
+    "measurements": {
+      "lens_width": "50 mm / 1.97\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Gold, Green",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0202_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0202_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0202_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0202_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m0s0202_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/ottoto-notos-shiny-black/28-000001.html",
+    "title": "Ottoto District Shiny Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Ottoto District Shiny Black",
+    "brand": "Ottoto",
+    "description": "The Ottoto District is a bold sunglasses frame, part of the new Ottoto line inspired by the stylistic aura of the world's most famous subway lines. Crafted from chunky acetate, it features a sleek hue, smart metal accents on the wing tips and temple tips, complemented by sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "48 mm / 1.89\"",
+      "lens_height": "34 mm / 1.34\"",
+      "bridge_width": "23 mm / 0.91\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Acetate, Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Shiny Black",
+    "price": 94.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000001_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000001_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000001_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000001_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000001_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/orange-medium/muse-optimum/32-001748.html",
+    "title": null,
+    "product_name": "Muse Optimum Orange",
+    "brand": "Muse",
+    "description": "The Muse Optimum is a slick sunglasses frame exuding vintage chic. Crafted from premium acetate, it features a lustrous hue, a retro-inspired keyhole bridge, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "46 mm / 1.81\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "24 mm / 0.94\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Orange",
+    "price": 96.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001748_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001748_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001748_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001748_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001748_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/goldbrown-large/ray-ban-rb3362-cockpit/46-m7784.html",
+    "title": null,
+    "product_name": "Ray-Ban 3362 Cockpit Gold, Brown",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3362 features a stylish tear-shaped frame inspired by the classic aviator frames. With its double-bridge, thin yet durable frame, it exudes a second-to-none cool and a subtle sense of mystery.",
+    "measurements": {
+      "lens_width": "59 mm / 2.32\"",
+      "lens_height": "45 mm / 1.77\"",
+      "bridge_width": "14 mm / 0.55\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gold, Brown",
+    "price": 207.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m7784_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m7784_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m7784_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m7784_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-m7784_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-blackgold-medium/muse-elliot/32-001634.html",
+    "title": null,
+    "product_name": "Muse Elliot Shiny Black, Gold",
+    "brand": "Muse",
+    "description": "\"The Elliot is a sunglasses version of our best-selling frame, a modern take on the iconic 50's browline design. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.\"",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "41 mm / 1.61\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Metal, Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Browline",
+    "color": "Shiny Black, Gold",
+    "price": 106.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001634_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001634_f.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001634_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001634_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001634_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001634_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "adjustable nose pads": "Yes",
+      "progressive / bifocal eligible": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browngold-large/ray-ban-rb3647n/62-0rb3647n15751.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3647N Gold w/Brown Polarized",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3647N is a round frame not quite like any other. Crafted from metal and featuring a unique double bridge, its sleek arms and adjustable silicone nose-pads balance between form and function.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "48 mm / 1.89\"",
+      "bridge_width": "22 mm / 0.87\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Round, Aviator",
+    "color": "Brown, Gold",
+    "price": 255.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/0RB3647N__001_57_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0RB3647N__001_57_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0RB3647N__001_57_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0RB3647N__001_57_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0RB3647N__001_57_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "lens feature": "Polarized"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/tortoise-medium/muse-joseph/32-000738.html",
+    "title": "Muse Joseph Tortoise Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Joseph Tortoise",
+    "brand": "Muse",
+    "description": "Frame is of high quality and was tough enough to survive my getting them adjusted. I have a significant prescription and the price for lenses was significantly below Warby Parker!",
+    "measurements": {
+      "lens_width": "49 mm / 1.93\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "22 mm / 0.87\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Tortoise",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-000738_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000738_f_3.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000738_f_3.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000738_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000738_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-000738_f_3.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetalgreen-medium/ray-ban-rb3183/46-r6695.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3183 Gunmetal, Green",
+    "brand": "Ray-Ban",
+    "description": "It is a good value and true to advertisement. The frame is good, however, what I did not foresee was that the little bolts on the lenses, which attach the nose pieces will take some time to get used to because they somehow are visible. It is something you really can't notice without trying on. I got prescription lenses and they are pretty thick even though I picket the recommended best value middle option. I would go with the finest option next time. I am comparing the lens thickness with that of my prescription everyday transition lenses from my optometrist and they are more than 2x thicker. So, at the end of the day you get what you pay for. Having said that I have no regrets and may buy again from this site in the future.",
+    "measurements": {
+      "lens_width": "63 mm / 2.48\"",
+      "lens_height": "35 mm / 1.38\"",
+      "bridge_width": "15 mm / 0.59\"",
+      "temple_length": "125 mm / 4.92\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Semi-Rimless",
+    "shape": "Wrap",
+    "color": "Gunmetal, Green",
+    "price": 178.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-r6695_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-r6695_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-r6695_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-r6695_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-r6695_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "progressive / bifocal eligible": "No",
+      "adjustable nose pads": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/burberry-be4181/96-p7604.html",
+    "title": null,
+    "product_name": "Burberry BE4181 Black",
+    "brand": "Burberry",
+    "description": "The Burberry BE4181 is a modern sunglasses frame that's impossible to ignore. Crafted with bi-injected rubber, it features signature brand patterns on the arms and gold metal accents for a luxurious touch.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate, Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Black",
+    "price": 455.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-p7604-u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-p7604_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-p7604-u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-p7604_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/96-p7604_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetalgrayred-large/progear-racer-s-1283/49-000030.html",
+    "title": null,
+    "product_name": "Progear Racer S-1283 Gunmetal, Gray, Red",
+    "brand": "Progear",
+    "description": "The Progear Racer is a stylish and comfortable pair of sports sunglasses. Crafted from lightweight and flexible TR-90, it features wrap lenses for enhanced peripheral vision and protection, as well as rubberized paddings on the temple tips and nose pads for a snug, no-slip fit.",
+    "measurements": {
+      "lens_width": "70 mm / 2.76\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "9 mm / 0.35\"",
+      "temple_length": "132 mm / 5.2\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Semi-Rimless",
+    "shape": "Wrap",
+    "color": "Gunmetal, Gray, Red",
+    "price": 175.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000030_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000030_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000030_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000030_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored, Curved",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/goldgreen-medium/ray-ban-3548n-hexagonal/46-001220.html",
+    "title": null,
+    "product_name": "Ray-Ban 3548N Gold, Green",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3548N is a stylish frame with a unique geometric rim shape. It features an ornate bridge, gold colored detailing and plenty of interesting angles.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Stainless Steel",
+    "rim_type": "Full-Rim",
+    "shape": "Geometric",
+    "color": "Gold, Green",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001220_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001220_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001220_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001220_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-001220_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gold-medium/ottoto-roland/32-001654.html",
+    "title": null,
+    "product_name": "Ottoto Roland Gold",
+    "brand": "Ottoto",
+    "description": "The Ottoto Roland is a classically cool square-aviator frame. Crafted from high-grade monel, it features a dapper double bridge, sleek arms with subtle brand detailing, and adjustable silicone nose pads for a comfortable fit.",
+    "measurements": {
+      "lens_width": "54 mm / 2.13\"",
+      "lens_height": "46 mm / 1.81\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gold",
+    "price": 106.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001654_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001654_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001654_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001654_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001654_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/ray-ban-rb4101-jackie-ohh/46-003002.html",
+    "title": null,
+    "product_name": "Ray-Ban RB4101 Jackie Ohh Shiny Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4101 Jackie Ohh is a glamorous frame befitting the original Jackie O. Crafted from premium acetate, this oversized frame boasts a beautiful tortoiseshell hue and bulky arms that add a sense of the dramatic.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Oval",
+    "color": "Shiny Black",
+    "price": 228.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003002_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003002_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003002_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003002_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003002_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/clear-large/revel-court-clear/28-000029.html",
+    "title": null,
+    "product_name": "Revel Court Clear",
+    "brand": "Revel",
+    "description": "The Revel Court is a stylish sunglasses frame, part of our growing eco-conscious eyewear. Crafted from high-grade biodegradable acetate, it features a saddle bridge, wire-core temples, and molded nose pads for a snug fit. Biodegradable acetate is better for our planet, made from mostly renewable sources while maintaining premium look, feel, and quality.",
+    "measurements": {
+      "lens_width": "55 mm / 2.17\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate, Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Clear",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000029_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000029_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000029_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000029_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000029_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browngold-large/ottoto-jennings-brown-gold/32-002232.html",
+    "title": null,
+    "product_name": "Ottoto Jennings Brown, Gold",
+    "brand": "Ottoto",
+    "description": "The Ottoto Jennings is a stylish square sunglasses with undeniable presence. Crafted from premium acetate, it features metal rims, shiny rivets and a sophisticated polished finish.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Browline",
+    "color": "Brown, Gold",
+    "price": 78.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002232_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-002232_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-002232_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-002232_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-002232_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "adjustable nose pads": "Yes",
+      "progressive / bifocal eligible": "Yes",
+      "spring hinges": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gunmetal-large/oakley-oo4142-ejector-prizm/46-002827.html",
+    "title": "Oakley OO4142 Ejector Prizm Gunmetal Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Oakley OO4142 Ejector Prizm Gunmetal",
+    "brand": "Oakley",
+    "description": "Driven by innovation and performance, Oakley is known for eyewear built to handle real movement. With a focus on advanced design, secure fits, and bold aesthetics, Oakley glasses and sunglasses are made for those who like their style with an edge and their eyewear ready for action.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Gunmetal",
+    "price": 286.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002827_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002827_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002827_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002827_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002827_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002827_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/muse-quint-shiny-black/32-001963.html",
+    "title": "Muse Quint Shiny Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Quint Shiny Black",
+    "brand": "Muse",
+    "description": "The Muse Quint is a stylish sunglasses frame that's impossible to ignore. Crafted from high-grade acetate, it features a rich hue, smart metal accents, and molded nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "49 mm / 1.93\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Shiny Black",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001963_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001963_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001963_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001963_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001963_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blue-extra-large/oakley-oo9367-drop-point/62-0oo936793670660.html",
+    "title": "Oakley Drop Point Prizm Matte Grey w/Blue Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Oakley Drop Point Prizm Matte Grey w/Blue",
+    "brand": "Oakley",
+    "description": "Driven by innovation and performance, Oakley is known for eyewear built to handle real movement. With a focus on advanced design, secure fits, and bold aesthetics, Oakley glasses and sunglasses are made for those who like their style with an edge and their eyewear ready for action.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Extra Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Blue",
+    "price": 249.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/0OO9367__936706_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0OO9367__936706_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0OO9367__936706_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0OO9367__936706_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0OO9367__936706_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/0OO9367__936706_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "lens feature": "Polarized"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/clear-medium/ray-ban-rb4378-clear/46-003983.html",
+    "title": "Ray-Ban RB4378 Clear Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Ray-Ban RB4378 Clear",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 4378 is a slick sunglasses frame purring with elegance. Crafted from injected polyamide, it features cat-eye design lines, sleek temples, and classic Ray-Ban detailing for an added splash of designer flair.",
+    "measurements": {
+      "lens_width": "54 mm / 2.13\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "16 mm / 0.63\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Clear",
+    "price": 176.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597626866_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597626866_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597626866_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597626866_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597626866_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blue-large/o-neill-ons-harwood-2-0-blue/36-002540.html",
+    "title": "O'Neill ONS-Harwood 2.0 Blue Prescription Sunglasses",
+    "product_name": "O'Neill ONS-Harwood 2.0 Blue",
+    "brand": "O'Neill",
+    "description": "The O'Neill ONS-Harwood 2.0 is a stylish sunglasses frame flaunting unique wood-made temples, adding a natural feel to the summertime aura. The frame is crafted from ZEROFORM, the brand's unique polymer delivering a lightweight fit without compromising durability and style.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "extra large",
+    "gender": "Men",
+    "material": "Plastic, Wood",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Blue",
+    "price": 156.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002540_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/muse-summer-shiny-black/32-002112.html",
+    "title": "Muse Summer Shiny Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Summer Shiny Black",
+    "brand": "Muse",
+    "description": "The Muse Summer is a slick sunglasses frame exuding oceanside cool. Crafted from high-grade acetate, it features a keyhole bridge, sleek metal accents, and molded nose pads for a comfortable fit.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "43 mm / 1.69\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Shiny Black",
+    "price": 96.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002112_u_3.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002112_f_3.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002112_u_3.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002112_s_3.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002112_f_3.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-large/ray-ban-rb3539-erika-metal/46-003047.html",
+    "title": null,
+    "product_name": "Ray-Ban RB3539 Erika Metal Shiny Black",
+    "brand": "Ray-Ban",
+    "description": "The Ray-Ban 3539 is the perfect frame for fans of the rubberized-style eyeglasses. Sporting sleek arms and adjustable silicone nose-pads, it balances style and substance with effortless elegance.",
+    "measurements": {
+      "lens_width": "54 mm / 2.13\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "19 mm / 0.75\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Round",
+    "color": "Shiny Black",
+    "price": 197.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003047_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003047_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003047_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003047_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-003047_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient, Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/cleargraysilver-medium/versace-ve4361/62-ve43613116g5353.html",
+    "title": "Versace VE4361 Clear , Gray , Silver",
+    "product_name": "Versace VE4361 Gray, Clear",
+    "brand": "Versace",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "53 mm / 2.09\"",
+      "lens_height": "35 mm / 1.38\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Geometric",
+    "color": "Gray, Clear",
+    "price": 499.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597207812_U.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597207812_F.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597207812_U.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597207812_S.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597207812_F.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored",
+      "progressive / bifocal eligible": "No",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/greentortoise-medium/costa-del-mar-6s9016-rinconcito-green-tortoise/62-6s90169016116060.html",
+    "title": "Costa Del Mar 6S9016 Rinconcito tortoise frame with green mirrored 580p lenses. Lenses provide 100% UV protection.",
+    "product_name": "Costa Del Mar 6S9016 Rinconcito Brown, Tortoise, Green",
+    "brand": "Costa Del Mar",
+    "description": "Known to many simply as Costa, Costa Del Mar designs eyewear with a strong focus on quality and clarity. Built with premium materials and attention to detail, Costa sunglasses are made for people who spend their days outdoors and expect their eyewear to keep up.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Wrap",
+    "color": "Brown, Tortoise, Green",
+    "price": 233.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_U.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_F.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_U.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_S.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_U.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963813303_F.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored, Polarized",
+      "progressive / bifocal eligible": "No",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-black-medium/muse-patterson-shiny-black/32-001923.html",
+    "title": null,
+    "product_name": "Muse Patterson Shiny Black",
+    "brand": "Muse",
+    "description": "The Muse Patterson is a bold sunglasses frame with an undeniable presence. Crafted from chunky acetate, it flaunts a polished hue, sleek brand detailing on the temples, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "57 mm / 2.24\"",
+      "lens_height": "41 mm / 1.61\"",
+      "bridge_width": "16 mm / 0.63\"",
+      "temple_length": "155 mm / 6.1\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Shiny Black",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001923_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001923_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001923_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001923_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001923_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-extra-large/pentax-zt25-8-black/69-000020.html",
+    "title": "Pentax ZT25-8 Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Pentax ZT25-8 Black",
+    "brand": "Pentax",
+    "description": "The Pentax ZT-25 8-base is a rugged safety sunglasses frame with the ANSI Z87.1 standard for high velocity and high mass impact. It's lightweight and extra durable, with a wrap-around design and comfortable padding seal on the inside.",
+    "measurements": {
+      "lens_width": "61 mm / 2.4\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "19 mm / 0.75\"",
+      "temple_length": "127 mm / 5\""
+    },
+    "size": "Extra Wide",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 86.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/69-000020_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000020_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000020_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000020_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000020_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-medium/o-neill-ons-paipo-2-0-black/36-002883.html",
+    "title": "O'Neill ONS-Paipo 2.0 Black Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "O'Neill ONS-Paipo 2.0 Black",
+    "brand": "O'Neill",
+    "description": "The O'Neill ONS-Paipo 2.0 is a stylish full-rimmed frame putting an elegant spin on classic summertime flair. Crafted from O'Neill ZEROFORM material, it features a keyhole bridge, sleek metal temples, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "52 mm / 2.05\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Black",
+    "price": 165.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-002883_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-002883_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-002883_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-002883_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-002883_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored, Polarized",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browntortoise-large/michael-kors-mk2098u-isle-of-palms/46-002200.html",
+    "title": null,
+    "product_name": "Michael Kors MK2098U Isle Of Palms Brown, Tortoise",
+    "brand": "Michael Kors",
+    "description": "The Michael Kors Isle of Palms MK2098U is an oversized sunglasses frame made for a low-bridge fit. Crafted from premium acetate, it features sleek arms, polished MK brand logo, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Acetate, Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Oversized",
+    "color": "Brown, Tortoise",
+    "price": 186.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002200_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002200_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002200_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002200_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002200_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/graybeige-large/oakley-oo9146-si-ballistic-m-frame-3-0/62-0oo914691460532.html",
+    "title": "Oakley 0OO9146 Neutrals",
+    "product_name": "Oakley OO9146 Neutrals",
+    "brand": "Oakley",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "80 mm / 3.15\"",
+      "lens_height": "0 mm / 0\"",
+      "bridge_width": "24 mm / 0.94\"",
+      "temple_length": "132 mm / 5.2\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Gray, Beige",
+    "price": 175.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/700285606767_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/700285606767_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/700285606767_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/700285606767_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/700285606767_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/grayclear-medium/eyres-mistral-gray-clear/49-000055.html",
+    "title": null,
+    "product_name": "Eyres Mistral Gray, Clear",
+    "brand": "Eyres",
+    "description": "The Eyres Mistral is the ultimate multi-purpose goggle, crafted from lightweight Polycarbonate. Its ergonomic design is impact resistant. Featuring soft silicone eye pads, arm slits for proper ventilation and a silicone fleece strap, you’ll get the ultimate fit and protection.",
+    "measurements": {
+      "lens_width": "68 mm / 2.68\"",
+      "lens_height": "40 mm / 1.57\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "127 mm / 5\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Gray, Clear",
+    "price": 165.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000055_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000055_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000055_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000055_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000055_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Polarized, Curved",
+      "progressive / bifocal eligible": "No",
+      "safety usage": "Industrial / DIY",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-medium/pentax-zt100-black/69-000008.html",
+    "title": null,
+    "product_name": "Pentax ZT100 Black",
+    "brand": "Pentax",
+    "description": "With a strong background in optical innovation, Pentax brings precision and reliability to eyewear design. Known for quality construction and attention to detail, Pentax glasses focus on clarity, comfort, and dependable everyday wear.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 115.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/69-000008_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000008_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000008_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000008_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000008_u.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000008_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/clear-large/revel-cluster/32-001734.html",
+    "title": "Revel Cluster Clear Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Revel Cluster Clear",
+    "brand": "Revel",
+    "description": "The Revel Cluster is an effortlessly cool sunglasses frame that stands out anywhere you go. Sporting a keyhole bridge, translucent hue, wire-core arms and sculpted nose pads, it's a seamless mix of form and function.",
+    "measurements": {
+      "lens_width": "51 mm / 2.01\"",
+      "lens_height": "42 mm / 1.65\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Clear",
+    "price": 86.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001734_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001734_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001734_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001734_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001734_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/clear-medium/revel-leisure-clear/28-000032.html",
+    "title": "Revel Leisure Clear Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Revel Leisure Clear",
+    "brand": "Revel",
+    "description": "The Revel Leisure is a stylish sunglasses frame, part of our growing selection of eco-conscious eyewear. Crafted from high-grade biodegradable acetate, it features a creative twist on the iconic aviator design, complemented by sleek metal detailing on the temples for an added dash of flair. Biodegradable acetate is better for our planet, made from mostly renewable sources while maintaining premium look, feel, and quality.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Acetate, Eco-conscious",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Clear",
+    "price": 58.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/28-000032_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000032_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000032_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000032_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000032_u_2.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/28-000032_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/tortoisebeige-medium/kate-spade-karina/s-tortoise-beige/36-004059.html",
+    "title": null,
+    "product_name": "Kate Spade Karina/S Tortoise, Beige",
+    "brand": "Kate Spade",
+    "description": "The Kate Spade Karina/S is a flashy cat-eye frame with an undeniable aura of vintage allure. Crafted from acetate, it flaunts delightfully dramatic design lines, wire-core temples, and sleek Spade icons for an extra splash of flash.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "46 mm / 1.81\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Tortoise, Beige",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/36-004059_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-004059_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-004059_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-004059_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/36-004059_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/browntortoise-medium/muse-williams-brown/tortoise/32-001958.html",
+    "title": "Muse Williams Brown, Tortoise Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Williams Brown, Tortoise",
+    "brand": "Muse",
+    "description": "The Muse Williams is a classic full-rimmed frame with timeless appeal. Crafted from premium acetate, this retro-flavored frame boasts a keyhole bridge, bold arms, and polished metal detailing for an added dash of flash.",
+    "measurements": {
+      "lens_width": "47 mm / 1.85\"",
+      "lens_height": "40 mm / 1.57\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Brown, Tortoise",
+    "price": 94.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001958_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001958_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001958_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001958_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001958_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackblue-large/costa-del-mar-6s9018-rincon-black-blue/62-6s90189018356363.html",
+    "title": "Costa Del Mar 6S9018 Rincon black frame with blue mirrored 580g lenses. Lenses provide 100% UV protection.",
+    "product_name": "Costa Del Mar 6S9018 Rincon Black , Blue",
+    "brand": "Costa Del Mar",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "63 mm / 2.48\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "11 mm / 0.43\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Black, Blue",
+    "price": 296.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/097963905176_U_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/097963905176_F_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/097963905176_U_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/097963905176_S_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/097963905176_F_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "lens feature": "Mirrored, Polarized"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/black-large/eyres-620e-thunder/49-000033.html",
+    "title": null,
+    "product_name": "Eyres 620E Thunder Black",
+    "brand": "Eyres",
+    "description": "The Eyres 620 Thunder is a stylish ANSI-certified safety glasses wrap frame crafted from ultra durable TR-90. Sporting curved lenses, chunky yet flexible arms and rubberized nose pads, it's a seamless mix of form and function.",
+    "measurements": {
+      "lens_width": "78 mm / 3.07\"",
+      "lens_height": "39 mm / 1.54\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "118 mm / 4.65\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Black",
+    "price": 96.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/49-000033_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/49-000033_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/49-000033_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/49-000033_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/49-000033_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "No",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackbrowntortoise-large/coach-hc8169/46-002993.html",
+    "title": null,
+    "product_name": "Coach HC8169 Black/Brown/Tortoise",
+    "brand": "Coach",
+    "description": "The Coach HC8169 is a chic square frame that brings a bit of swerve to the classic style. Crafted from Propionate, it features a smart saddle bridge and elegant arms with flattering metal accents.",
+    "measurements": {
+      "lens_width": "57 mm / 2.24\"",
+      "lens_height": "47 mm / 1.85\"",
+      "bridge_width": "16 mm / 0.63\"",
+      "temple_length": "135 mm / 5.31\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Oversized",
+    "color": "Black, Brown, Tortoise",
+    "price": 260.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/46-002993_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002993_f.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002993_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002993_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002993_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/46-002993_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Gradient",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackblueclear-large/oakley-oo9100-leffingwell-black-blue-clear/62-oo91009100055757.html",
+    "title": "Oakley OO9100 Leffingwell clear, black frame with PRIZM deep water polarized lenses. Lenses provide 100% UV protection.",
+    "product_name": "Oakley OO9100 Leffingwell Black , Blue , Clear",
+    "brand": "Oakley",
+    "description": "The Oakley Leffingwell is a stylish full-rimmed sunglasses frame with an eco-friendly touch. Crafted from BiO-matter, it features classic square shaping, detailing inspired by surfboards, and the iconic O on the temples. BiO-matter is a more sustainable choice, just as lightweight and durable as the original O-Matter.",
+    "measurements": {
+      "lens_width": "57 mm / 2.24\"",
+      "lens_height": "45 mm / 1.77\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "134 mm / 5.28\""
+    },
+    "size": "Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle, Wrap",
+    "color": "Black, Blue, Clear",
+    "price": 237.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/888392581211_U_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392581211_F_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392581211_U_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392581211_S_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392581211_F_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "lens feature": "Polarized"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/brownclear-large/muse-wes/32-001830.html",
+    "title": "Muse Sharla Orange, Blue Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Sharla Orange, Blue",
+    "brand": "Muse",
+    "description": "The Muse Sharla was personally handpicked by YouTuber @Sharmeleon. The Muse Sharla is a stylish square sunglasses frame with an undeniable presence. Crafted from premium acetate, it features a keyhole bridge, trendy translucent hue, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "50 mm / 1.97\"",
+      "lens_height": "43 mm / 1.69\"",
+      "bridge_width": "21 mm / 0.83\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Square, Oversized",
+    "color": "Orange, Blue",
+    "price": 98.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-001830_u_2.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001830_f_2.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001830_u_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001830_s_2.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/32-001830_f_2.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgoldgraysilver-extra-large/burberry-be4291-black-gold-gray-silver/62-be42913001g3838.html",
+    "title": "Burberry BE4291 black frame with grey burberry silver gold lenses. Lenses provide 100% UV protection.",
+    "product_name": "Burberry BE4291 Black , Gold , Gray , Silver",
+    "brand": "Burberry",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "38 mm / 1.5\"",
+      "lens_height": "0 mm / 0\"",
+      "bridge_width": "138 mm / 5.43\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Extra Wide",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Rectangle",
+    "color": "Black, Gold, Gray, Silver",
+    "price": 592.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597004466_U.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597004466_F.jpg/w=144,h=72",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597004466_F.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597004466_U.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597004466_S.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597004466_F.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/gray-medium/wiley-x-trek-gray/67-000328.html",
+    "title": "Wiley X Trek Gray Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Wiley X Trek Gray",
+    "brand": "Wiley X",
+    "description": "The Wiley X Trek is a sporty safety sunglasses frame with the ANSI Z87.1 safety rating. Crafted from ultra durable Triloid nylon, it features a modern rectangular design, the classic WX logos on the temples, and molded nose pads (rubberized) for a comfortable fit.",
+    "measurements": {
+      "lens_width": null,
+      "lens_height": null,
+      "bridge_width": null,
+      "temple_length": null
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Square",
+    "color": "Gray",
+    "price": 198.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_u-1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_u-1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_u-1.jpg/w=480,h=240",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/712316007382_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Mirrored",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/goldgreen-medium/ray-ban-caravan-rb3136-/62-0rb3136158.html",
+    "title": null,
+    "product_name": "Ray-Ban Caravan RB3136 Gold w/Green",
+    "brand": "Ray-Ban",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "45 mm / 1.77\"",
+      "bridge_width": "15 mm / 0.59\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gold, Green",
+    "price": 191.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/805289003472_u_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/805289003472_f_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/805289003472_u_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/805289003472_s_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/805289003472_f_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "adjustable nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/shiny-blackblue-large/pentax-zt35-shiny-black/blue/69-000014.html",
+    "title": "Pentax ZT35 Shiny Black, Blue Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Pentax ZT35 Shiny Black, Blue",
+    "brand": "Pentax",
+    "description": "The Pentax ZT35 is a pair of ANSI (Z87.1) tested safety sunglasses. Sporting a wrap-around shape, it features durable and impact-resistant side shields for extra eye protection.",
+    "measurements": {
+      "lens_width": "58 mm / 2.28\"",
+      "lens_height": "38 mm / 1.5\"",
+      "bridge_width": "20 mm / 0.79\"",
+      "temple_length": "125 mm / 4.92\""
+    },
+    "size": "Wide",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wrap",
+    "color": "Shiny Black, Blue",
+    "price": 115.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/69-000014_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000014_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000014_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000014_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/69-000014_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "lens feature": "Curved",
+      "standard": "ANSI Z87, OSHA 1910",
+      "safety usage": "Industrial / DIY, Medical / Lab",
+      "progressive / bifocal eligible": "Yes",
+      "integrated nose pads": "Yes"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackgray-extra-large/michael-kors-mk2137u-anaheim/62-mk2137u3005t35757.html",
+    "title": "Michael Kors MK2137U Anaheim black frame with dark grey polarized lenses. Lenses provide 100% UV protection.",
+    "product_name": "Michael Kors MK2137U Anaheim Black , Gray",
+    "brand": "Michael Kors",
+    "description": "The Michael Kors Anaheim MK2137U is a slick pair of square sunglasses that's impossible to ignore. Crafted from premium acetate, it features sleek arms, flashy brand logos on the temples, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "57 mm / 2.24\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "18 mm / 0.71\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Wide",
+    "gender": "Women",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Cat Eye",
+    "color": "Black, Gray",
+    "price": 307.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/725125365628_U_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/725125365628_F_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/725125365628_U_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/725125365628_S_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/725125365628_F_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No",
+      "lens feature": "Polarized"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/goldgray-extra-large/versace-ve2225-gold-gray/62-ve22251002876060.html",
+    "title": null,
+    "product_name": "Versace VE2225 Gold , Gray",
+    "brand": "Versace",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "60 mm / 2.36\"",
+      "lens_height": "50 mm / 1.97\"",
+      "bridge_width": "15 mm / 0.59\"",
+      "temple_length": "140 mm / 5.51\""
+    },
+    "size": "Extra Wide",
+    "gender": "Men",
+    "material": "Metal",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Gold, Gray",
+    "price": 480.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/8056597220194_U_1.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597220194_F_1.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597220194_U_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597220194_S_1.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/8056597220194_F_1.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/blackpurple-medium/oakley-oo9013-frogskins/62-oo90139013h65555.html",
+    "title": null,
+    "product_name": "Oakley OO9013 Frogskins Black , Purple",
+    "brand": "Oakley",
+    "description": "Meticulously cut, surfaced and polished, each lens undergoes stringent reviews guaranteeing optical precision for every prescription.",
+    "measurements": {
+      "lens_width": "55 mm / 2.17\"",
+      "lens_height": "44 mm / 1.73\"",
+      "bridge_width": "17 mm / 0.67\"",
+      "temple_length": "139 mm / 5.47\""
+    },
+    "size": "Average",
+    "gender": "Men, Women",
+    "material": "Plastic",
+    "rim_type": "Full-Rim",
+    "shape": "Wayframe",
+    "color": "Black, Purple",
+    "price": 160.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/888392454690_U.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392454690_F.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392454690_U.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392454690_S.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392454690_F.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
+    "extra_attributes": {
+      "progressive / bifocal eligible": "No"
+    },
+    "included_items": [
+      "Scratch-resistant coating",
+      "365-day warranty",
+      "Case & cleaning cloth"
+    ]
+  },
+  {
+    "source_url": "https://www.glassesusa.com/yellowclear-medium/muse-bright-early-yellow/clear/32-002117.html",
+    "title": "Muse Bright & Early Yellow, Clear Prescription Sunglasses - 50% Off Lenses",
+    "product_name": "Muse Bright & Early Yellow, Clear",
+    "brand": "Muse",
+    "description": "The Muse Bright & Early is a contemporary take on the classic aviator frame. Crafted from high-grade acetate, it features wider lens coverage, wire-core temples, and sculpted nose pads for a snug fit.",
+    "measurements": {
+      "lens_width": "56 mm / 2.2\"",
+      "lens_height": "41 mm / 1.61\"",
+      "bridge_width": "13 mm / 0.51\"",
+      "temple_length": "145 mm / 5.71\""
+    },
+    "size": "Average",
+    "gender": "Men",
+    "material": "Acetate",
+    "rim_type": "Full-Rim",
+    "shape": "Aviator",
+    "color": "Clear, Yellow",
+    "price": 96.0,
+    "original_price": null,
+    "image_urls": [
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002117_u.jpg/w=400,h=200,fit=fill,bg=fff",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002117_f.jpg",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002117_u.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002117_s.jpg/w=426,h=426",
+      "https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto:eco/ms/media/catalog_product/1/32-002117_f.jpg/w=300,h=300,fit=crop-bottom-right"
+    ],
     "extra_attributes": {
       "progressive / bifocal eligible": "Yes",
       "integrated nose pads": "Yes"

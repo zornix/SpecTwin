@@ -16,6 +16,9 @@ from typing import Dict, List, Optional
 from spec import FrameMeasurements, SunglassesSpecifications
 
 _MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+# Product photos live on the optimax CDN under ``catalog_product/``; color
+# swatches (``catalog_filter_color``) and brand logos (``/brand/``) are excluded.
+_PRODUCT_IMG = re.compile(r"(https?://[^)\s]*catalog_product/[^)\s]+\.(?:jpg|jpeg|png|webp)[^)\s]*)")
 
 
 def _clean(cell: str) -> str:
@@ -171,8 +174,28 @@ def _parse_included(markdown: str) -> List[str]:
     return items
 
 
-def parse_sunglasses(url: str, markdown: str, title: Optional[str] = None) -> SunglassesSpecifications:
-    """Parse a single page's markdown into a SunglassesSpecifications model."""
+def _parse_images(markdown: str) -> List[str]:
+    """Return unique product-photo URLs in document order (primary first)."""
+    images: List[str] = []
+    for match in _PRODUCT_IMG.finditer(markdown):
+        url = match.group(1)
+        if url not in images:
+            images.append(url)
+    return images
+
+
+def parse_sunglasses(
+    url: str,
+    markdown: str,
+    title: Optional[str] = None,
+    listing: Optional[Dict[str, object]] = None,
+) -> SunglassesSpecifications:
+    """Parse a single page's markdown into a SunglassesSpecifications model.
+
+    ``listing`` is the optional card record harvested from the grid page
+    (``{price, original_price, image}``) — the detail page itself does not carry
+    a price, so it is supplied here and its thumbnail seeds ``image_urls``.
+    """
     tables = _extract_tables(markdown)
     measurements = _parse_measurements(tables)
     kv = _parse_kv_specs(tables)
@@ -187,6 +210,12 @@ def parse_sunglasses(url: str, markdown: str, title: Optional[str] = None) -> Su
         else:
             extra[key] = value
 
+    listing = listing or {}
+    images = _parse_images(markdown)
+    card_image = listing.get("image")
+    if card_image and card_image not in images:
+        images.insert(0, str(card_image))
+
     return SunglassesSpecifications(
         source_url=url,
         title=title,
@@ -196,5 +225,8 @@ def parse_sunglasses(url: str, markdown: str, title: Optional[str] = None) -> Su
         measurements=measurements,
         included_items=_parse_included(markdown),
         extra_attributes=extra,
+        price=listing.get("price"),
+        original_price=listing.get("original_price"),
+        image_urls=images,
         **mapped_fields,
     )

@@ -33,6 +33,14 @@ class SunglassesSpecifications(BaseModel):
     shape: Optional[str] = Field(None, description="Frame shape, e.g. 'Square'")
     color: Optional[str] = Field(None, description="Frame color")
 
+    price: Optional[float] = Field(None, description="Current listing price in USD")
+    original_price: Optional[float] = Field(
+        None, description="Original / MSRP price in USD when on sale"
+    )
+    image_urls: List[str] = Field(
+        default_factory=list, description="Product image URLs (primary first)"
+    )
+
     extra_attributes: dict[str, str] = Field(
         default_factory=dict,
         description="Any additional key/value spec rows not mapped to a named field",
