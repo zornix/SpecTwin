@@ -4,8 +4,8 @@ The ``/sunglasses`` listing is the site's own pre-filtered set of sunglasses,
 but it renders behind anti-bot protection and paginates via ``?p=N``. We walk
 the pages through the You.com Contents API (which bypasses the bot challenge),
 pull every product-detail link out of each page's Markdown, and dedup until the
-listing stops yielding new products. The result is written to
-``sunglasses_urls.json`` in the ``{"urls": [...]}`` shape ``scrape1.py`` reads.
+listing stops yielding new products. Progress is checkpointed every 10 pages to
+``sunglasses_urls.json`` and ``listings.json``; a final write runs at the end.
 
 Usage:
     python harvest_listings.py                  # walk /sunglasses to exhaustion
@@ -37,6 +37,18 @@ DEFAULT_MAX_PAGES = 200
 MIN_RENDER_BYTES = 15000
 PAGE_RETRIES = 3
 LISTING_TIMEOUT = 45
+SAVE_INTERVAL = 10  # checkpoint sunglasses_urls.json / listings.json every N pages
+
+
+def _write_harvest(cards: dict[str, dict], *, verbose: bool = True) -> None:
+    """Persist the current harvest progress to disk."""
+    records = list(cards.values())
+    urls = [r["url"] for r in records]
+    OUTPUT_FILE.write_text(json.dumps({"urls": urls}, indent=2))
+    LISTINGS_FILE.write_text(json.dumps({r["url"]: r for r in records}, indent=2))
+    if verbose:
+        priced = sum(1 for r in records if r["price"] is not None)
+        print(f"  [saved] {len(urls)} URL(s) ({priced} priced)")
 
 
 def _page_url(listing: str, page: int) -> str:
@@ -105,6 +117,9 @@ def harvest(
         else:
             empty_streak = 0
 
+        if page % SAVE_INTERVAL == 0:
+            _write_harvest(cards, verbose=verbose)
+
     return list(cards.values())
 
 
@@ -118,12 +133,9 @@ def main(argv: List[str]) -> int:
 
     print(f"Harvesting product URLs from {listing} (max {max_pages} pages)...")
     records = harvest(listing, max_pages)
-    urls = [r["url"] for r in records]
-
-    OUTPUT_FILE.write_text(json.dumps({"urls": urls}, indent=2))
-    LISTINGS_FILE.write_text(json.dumps({r["url"]: r for r in records}, indent=2))
+    _write_harvest({r["url"]: r for r in records}, verbose=False)
     priced = sum(1 for r in records if r["price"] is not None)
-    print(f"\nWrote {len(urls)} sunglasses URL(s) to {OUTPUT_FILE.name} "
+    print(f"\nWrote {len(records)} sunglasses URL(s) to {OUTPUT_FILE.name} "
           f"({priced} priced) and card data to {LISTINGS_FILE.name}")
     return 0
 
