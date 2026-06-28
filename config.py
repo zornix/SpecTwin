@@ -39,3 +39,21 @@ def get_api_key() -> str:
 
 
 DEFAULT_CRAWL_TIMEOUT = int(os.environ.get("YOU_CRAWL_TIMEOUT", "30"))
+
+NEBIUS_BASE_URL = os.environ.get(
+    "NEBIUS_BASE_URL", "https://api.tokenfactory.nebius.com/v1/"
+)
+NEBIUS_MODEL = os.environ.get(
+    "NEBIUS_MODEL", "nvidia/Nemotron-3-Nano-Omni"
+)
+
+
+def get_nebius_api_key() -> str:
+    """Return the Nebius Token Factory API key or raise a helpful error."""
+    key = os.environ.get("NEBIUS_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError(
+            "NEBIUS_API_KEY is not set. Add it to Wizardry/.env "
+            "(NEBIUS_API_KEY=...) or export it in your shell."
+        )
+    return key
