@@ -1,0 +1,205 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  ──────────────────────────────────────────────────────────────────────────
+  Spectra — "Editorial Fashion" theme
+  Off-white paper · near-black ink · one punchy orange accent.
+  High-contrast Bodoni display + Geist grotesque + Geist Mono spec labels.
+  Hairline rules, numbered sections, generous whitespace. Locked to light.
+  ──────────────────────────────────────────────────────────────────────────
+*/
+
+:root {
+  --radius: 0.25rem;
+
+  /* Core palette */
+  --paper: oklch(0.962 0.011 84); /* warm off-white #F4F1E9 */
+  --paper-deep: oklch(0.938 0.014 84); /* slightly deeper panel */
+  --ink: oklch(0.18 0.006 60); /* near-black #151310 */
+  --orange: oklch(0.645 0.2 41); /* editorial orange #E2552B */
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: oklch(0.985 0.006 84);
+  --card-foreground: var(--ink);
+  --popover: oklch(0.985 0.006 84);
+  --popover-foreground: var(--ink);
+
+  --primary: var(--orange);
+  --primary-foreground: oklch(0.99 0.01 84);
+
+  --secondary: oklch(0.925 0.012 84);
+  --secondary-foreground: var(--ink);
+  --muted: oklch(0.925 0.012 84);
+  --muted-foreground: oklch(0.46 0.012 66);
+  --accent: oklch(0.91 0.014 84);
+  --accent-foreground: var(--ink);
+
+  --destructive: oklch(0.58 0.2 27);
+
+  --border: oklch(0.18 0.006 60 / 0.14);
+  --input: oklch(0.18 0.006 60 / 0.16);
+  --ring: var(--orange);
+
+  /* Hairline rule + halftone-paper helpers */
+  --rule: oklch(0.18 0.006 60 / 0.16);
+  --rule-strong: oklch(0.18 0.006 60 / 0.85);
+
+  --chart-1: var(--orange);
+  --chart-2: oklch(0.45 0.02 66);
+  --chart-3: oklch(0.7 0.13 60);
+  --chart-4: oklch(0.55 0.08 40);
+  --chart-5: oklch(0.3 0.01 66);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-ink: var(--ink);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-serif: var(--font-bodoni), ui-serif, Georgia, serif;
+  --font-display: var(--font-bodoni), ui-serif, Georgia, serif;
+
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scrollbar-gutter: stable;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv01";
+  }
+
+  ::selection {
+    background: var(--orange);
+    color: var(--primary-foreground);
+  }
+
+  /* Editorial display */
+  .font-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+  }
+
+  /* Mono micro-labels / eyebrows */
+  .label-mono {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.7rem;
+  }
+}
+
+@layer utilities {
+  .text-accent {
+    color: var(--orange);
+  }
+
+  /* Black hairline rules used to divide editorial sections */
+  .rule-t {
+    border-top: 1px solid var(--rule);
+  }
+  .rule-b {
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* Animated underline for editorial links */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  /* Subtle paper grain for atmosphere */
+  .paper-grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+
+  /* Marquee for the brand strip */
+  .animate-marquee {
+    animation: marquee 38s linear infinite;
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* GSAP reveal primitives — hidden until animated in (JS adds .is-in) */
+  .reveal-line {
+    display: block;
+    overflow: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-marquee {
+    animation: none !important;
+  }
+}

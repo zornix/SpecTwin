@@ -1,0 +1,312 @@
+/*
+ * Spectwin showcase overlays — ported from the Wizard project, recolored to our
+ * tokens (orange / paper / ink), refonted to Bodoni + Geist + Geist Mono, and
+ * repositioned from `fixed` to `absolute` so they pin inside the sticky stage
+ * (rather than the viewport) and release cleanly after the experience.
+ */
+
+/* ── Rolling-counter flourishes (used by ProductCard, in + out of .wizard-exp) ── */
+.brand-swap {
+  animation: brand-in 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes brand-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* The match-accuracy score flashes orange + pops as it lands on a new pair. */
+.match-flash {
+  animation: match-flash 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes match-flash {
+  0% { transform: scale(1.18); filter: brightness(1.5); }
+  60% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1); }
+}
+
+/* ── Persistent product panel (right side) ─────────────────────────────────── */
+.wizard-exp .cards-panel {
+  position: absolute;
+  top: 50%;
+  right: clamp(24px, 6vw, 110px);
+  transform: translateY(-50%);
+  z-index: 10;
+  pointer-events: none;
+}
+.card-persist {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.card-persist[data-visible='true'] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Narrative text layer ──────────────────────────────────────────────────── */
+.wizard-exp .se-narr {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+}
+
+/* HERO — title card pinned to the TOP; the 3D model sits below it (no clash). */
+.wizard-exp .se-hero {
+  position: absolute;
+  top: clamp(56px, 11vh, 116px);
+  left: 50%;
+  transform: translate(-50%, var(--rise, 0px));
+  width: min(92vw, 860px);
+  text-align: center;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.wizard-exp .se-hero-title {
+  margin: 0;
+  font-family: var(--font-bodoni), Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(44px, 9vw, 122px);
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+}
+.wizard-exp .se-hero-title em {
+  font-style: italic;
+  color: var(--orange);
+}
+.wizard-exp .se-hero-sub {
+  margin: clamp(18px, 2.6vh, 30px) auto 0;
+  max-width: 34ch;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: clamp(15px, 1.5vw, 19px);
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+
+/* Scroll cue under the hero title. */
+.wizard-exp .se-cue {
+  position: absolute;
+  bottom: clamp(22px, 5vh, 46px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+.wizard-exp .se-cue-line {
+  width: 1px;
+  height: 34px;
+  background: color-mix(in oklch, var(--ink) 38%, transparent);
+}
+
+/* ERASE — pinned ABOVE the glasses (the logo closeup fills the mid/lower frame). */
+.wizard-exp .se-erase {
+  position: absolute;
+  top: clamp(44px, 10vh, 104px);
+  left: 50%;
+  transform: translate(-50%, var(--rise, 0px));
+  width: min(92vw, 720px);
+  text-align: center;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.wizard-exp .se-erase p {
+  margin: 0;
+  font-family: var(--font-bodoni), Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(28px, 4.6vw, 60px);
+  line-height: 1.04;
+  letter-spacing: -0.018em;
+}
+.wizard-exp .se-erase em {
+  font-style: italic;
+  color: var(--orange);
+}
+
+/* PAIRS — pinned thesis, top-left, clear of the left frame + right card. */
+.wizard-exp .se-pin {
+  position: absolute;
+  top: clamp(26px, 6vh, 64px);
+  left: clamp(24px, 6vw, 96px);
+  max-width: min(46vw, 540px);
+  opacity: 0;
+  transform: translateY(var(--rise, 0px));
+  will-change: opacity, transform;
+}
+.wizard-exp .se-pin h2 {
+  margin: 0;
+  font-family: var(--font-bodoni), Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(30px, 4.4vw, 58px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.wizard-exp .se-pin-sub {
+  margin-top: 0.7em;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: clamp(12px, 1.2vw, 15px);
+  letter-spacing: 0.04em;
+  color: var(--muted-foreground);
+}
+
+/* CTA */
+.wizard-exp .se-cta {
+  position: absolute;
+  bottom: clamp(26px, 6vh, 64px);
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--rise, 0px));
+  opacity: 0;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.9em 1.6em;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: clamp(14px, 1.4vw, 17px);
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.wizard-exp .se-cta:hover {
+  background: var(--orange);
+  color: #fff;
+}
+
+/* ── Spec-analysis overlay ─────────────────────────────────────────────────── */
+.wizard-exp .spec-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+}
+.wizard-exp .spec-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.wizard-exp .spec-leader {
+  stroke: var(--ink);
+  stroke-width: 1;
+  opacity: 0;
+  will-change: opacity, stroke-dashoffset;
+}
+.wizard-exp .spec-dot {
+  fill: var(--orange);
+  opacity: 0;
+}
+.wizard-exp .spec-label {
+  position: absolute;
+  transform: translateY(-50%);
+  opacity: 0;
+  padding-left: 11px;
+  border-left: 1.5px solid var(--orange);
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  white-space: nowrap;
+  line-height: 1.25;
+  will-change: opacity;
+}
+.wizard-exp .spec-label-name {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+.wizard-exp .spec-label-value {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* ── Reduced-motion static fallback (rendered OUTSIDE .wizard-exp) ──────────── */
+.static-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--paper);
+}
+.static-canvas {
+  width: 100%;
+  height: 56vh;
+}
+.static-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: clamp(28px, 8vh, 90px) clamp(20px, 6vw, 80px) 12vh;
+  max-width: 980px;
+  margin: 0 auto;
+  pointer-events: none;
+}
+.static-content .headline {
+  font-family: var(--font-bodoni), Georgia, serif;
+  font-size: clamp(30px, 5vw, 64px);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0 0 clamp(20px, 4vh, 36px);
+}
+.static-content .static-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 0 clamp(24px, 5vh, 40px);
+}
+.static-content .cta {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.9em 1.6em;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: clamp(15px, 1.6vw, 18px);
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.static-content .cta:hover {
+  background: var(--orange);
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-swap,
+  .match-flash,
+  .card-persist {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* ── Mobile: stack the story + card to center/bottom, clear of the frame ────── */
+@media (max-width: 760px) {
+  .wizard-exp .cards-panel {
+    top: auto;
+    bottom: clamp(20px, 5vh, 40px);
+    right: 50%;
+    transform: translateX(50%);
+  }
+  /* Pin the thesis to the top-center on narrow screens, clear of the frame. */
+  .wizard-exp .se-pin {
+    top: clamp(20px, 5vh, 44px);
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    max-width: none;
+    text-align: center;
+  }
+}
