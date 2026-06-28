@@ -1,14 +1,18 @@
 """Configuration and secrets loading.
 
-Reads the You.com API key from the environment, falling back to a local
-`.env` file (key=value lines). Never hardcode keys in source files.
+Reads API keys from the environment, falling back to local dotenv files
+(``.env`` for the You.com key, ``.env.local`` for the InsForge-provisioned
+OpenRouter key written by ``npx @insforge/cli ai setup``). Never hardcode keys
+in source files.
 """
 from __future__ import annotations
 
 import os
 from pathlib import Path
 
-_ENV_FILE = Path(__file__).resolve().parent / ".env"
+_HERE = Path(__file__).resolve().parent
+_ENV_FILE = _HERE / ".env"
+_ENV_LOCAL_FILE = _HERE / ".env.local"
 
 
 def _load_dotenv(path: Path) -> None:
@@ -25,6 +29,7 @@ def _load_dotenv(path: Path) -> None:
 
 
 _load_dotenv(_ENV_FILE)
+_load_dotenv(_ENV_LOCAL_FILE)
 
 
 def get_api_key() -> str:
@@ -38,4 +43,23 @@ def get_api_key() -> str:
     return key
 
 
+def get_openrouter_key() -> str:
+    """Return the OpenRouter key (InsForge AI gateway) or raise a helpful error.
+
+    The key is provisioned by ``npx @insforge/cli ai setup``, which writes
+    ``OPENROUTER_API_KEY`` into ``.env.local``.
+    """
+    key = os.environ.get("OPENROUTER_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError(
+            "OPENROUTER_API_KEY is not set. Run `npx @insforge/cli ai setup` in "
+            "Wizardry/ (writes it to .env.local), or export it in your shell."
+        )
+    return key
+
+
 DEFAULT_CRAWL_TIMEOUT = int(os.environ.get("YOU_CRAWL_TIMEOUT", "30"))
+
+# Model used to normalize marketing descriptions into canonical style profiles.
+OPENROUTER_BASE_URL = os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+STYLE_PROFILE_MODEL = os.environ.get("OPENROUTER_CHAT_MODEL", "openai/gpt-4o-mini")

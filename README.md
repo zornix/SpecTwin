@@ -81,13 +81,17 @@ python scrape1.py "https://www.glassesusa.com/black-medium/revel-slater/32-p6543
 
 Output → `specs.json` (a JSON list of records; see schema below).
 
-## Stage 3 — Match (`match.py` + `features.py` + `imagesim.py`)
+## Stage 3 — Match (`match.py` + `features.py` + `imagesim.py` + `descsim.py`)
 
-Scores every pair of frames on two signals and blends them:
+Scores every pair of frames on **three** signals and blends them:
 
 ```
-score = alpha · image_similarity + (1 − alpha) · spec_similarity
+score = w_img · image_similarity + w_text · description_similarity + w_spec · spec_similarity
 ```
+
+where `w_img = --alpha`, `w_text = --text-weight`, and `w_spec` is the remainder
+(`1 − w_img − w_text`). Any optional signal that is unavailable is dropped and the
+remaining weights are renormalized, so matching always degrades gracefully.
 
 - **Spec similarity** (`features.py`) — z-scored frame **measurements**
   (lens width/height, bridge, temple) via a Gaussian on distance, plus weighted
@@ -95,18 +99,96 @@ score = alpha · image_similarity + (1 − alpha) · spec_similarity
   > `gender` (0.08) > `size` (0.07) > `color` (0.05).
 - **Image similarity** (`imagesim.py`) — cosine of **CLIP** (`clip-ViT-B-32`)
   embeddings of each product's primary photo. Images and embeddings are cached
-  (`image_cache/`, `clip_embeddings.json`), so re-runs are cheap. If the model or
-  network is unavailable, matching degrades gracefully to spec-only.
+  (`image_cache/`, `clip_embeddings.json`), so re-runs are cheap.
+- **Description similarity** (`descsim.py` + `style_profile.py`) — cosine of
+  **sentence-transformer** (`all-MiniLM-L6-v2`) embeddings of each frame's
+  **style profile**. The raw marketing blurb is first normalized by a small LLM
+  (`style_profile.py`, via the InsForge AI gateway / OpenRouter) into a
+  **brand-agnostic** description of the frame's *aesthetic* — silhouette, vibe,
+  era influences, who it suits — so the signal captures *style*, not brand
+  mentions or specs already covered above. Profiles and embeddings are cached
+  (`style_profiles.json`, `desc_embeddings.json`). If a frame has no profile yet
+  the raw description is embedded as a fallback; if the model is unavailable the
+  signal is dropped.
 
 For a chosen target it returns the most similar items **priced below it**.
 
 ```bash
-python match.py                            # list catalog (index, price, name, shape)
-python match.py --target ray-ban-rb2132    # match by url/brand/name substring …
-python match.py --target 12                # … or by catalog index
-python match.py --target 12 --alpha 0.6    # weight visual (CLIP) similarity higher
-python match.py --target 12 --top 10       # more results
-python match.py --target 12 --spec-only    # skip image download / CLIP
+python match.py                              # list catalog (index, price, name, shape)
+python match.py --target ray-ban-rb2132      # match by url/brand/name substring …
+python match.py --target 12                  # … or by catalog index
+python match.py --target 12 --alpha 0.6      # weight visual (CLIP) similarity higher
+python match.py --target 12 --text-weight 0.4  # add description-style similarity
+python match.py --target 12 --desc-only      # match purely on description style
+python match.py --target 12 --top 10         # more results
+python match.py --target 12 --spec-only      # skip image download / CLIP
+```
+
+> **One-time profile build.** Description matching reads style profiles from
+> `style_profiles.json`. Generate them (incremental & resumable, cached by
+> description hash) with:
+>
+> ```bash
+> npx @insforge/cli ai setup        # writes OPENROUTER_API_KEY to .env.local (once)
+> python style_profile.py           # normalize every description (parallel, resumable)
+> python style_profile.py --workers 16   # more concurrent LLM calls (default 8)
+> python style_profile.py --limit 50      # only the next 50 missing (cap cost)
+> python style_profile.py --show 3        # inspect raw vs. normalized profile for index 3
+> ```
+>
+> Generation runs a thread pool of concurrent LLM calls and flushes the cache
+> atomically as profiles land, so it is safe to stop (`Ctrl-C`) and resume.
+>
+> Until a frame is profiled, its raw description is used as a (noisier) fallback,
+> so matching still works before the full build completes.
+
+### Catalog-wide dupe finder (`find_dupes.py`)
+
+`match.py` answers *"given one target, show cheaper look-alikes."* `find_dupes.py`
+flips that around and scans the **whole catalog** to surface the best
+**designer → cheaper-dupe** opportunities in one pass.
+
+A pair must clear four hard gates — **same shape** (identical shape token-set),
+**same rim_type** (full-rim/semi-rimless/rimless is a big visual difference, so
+it's required by default; relax with `--any-rim`), **dimensionally close** (small
+Euclidean distance over the four mm measurements), and **meaningfully cheaper**
+while still stylish (a minimum saving + a price floor so junk frames don't
+surface). Survivors are then ranked by an overall **fit score** that blends:
+
+```
+fit = 0.6 · measurement_closeness + 0.4 · (rim_type · 0.5 + color · 0.3 + size · 0.2)
+```
+
+so among the same-rim survivors, matching `color` and `size` push a candidate up
+the list. The rim/size/color columns flag each attribute: `✓` exact, `~`
+partial overlap, `✗` differs (rim is always `✓` unless `--any-rim`). Premium
+targets are recognised designer brands
+(`PREMIUM_BRANDS`) or anything at/above `--price-floor`. Pure spec signal, so it
+covers all 1502 frames without needing CLIP image embeddings.
+
+Each branded frame lists its top **`--per-target`** alternatives (default 3), so
+you see several cheaper options per designer frame, not just the single closest.
+
+```bash
+python find_dupes.py                       # top designer→dupe opportunities
+python find_dupes.py --per-target 5        # list up to 5 look-alikes per frame
+python find_dupes.py --top 40              # show more branded frames
+python find_dupes.py --brand Versace       # only targets from this brand
+python find_dupes.py --max-mm 3            # tighter "same measurements" tolerance
+python find_dupes.py --loose-shape         # match overlapping (not identical) shape
+python find_dupes.py --any-rim             # relax the default same-rim_type gate
+python find_dupes.py --require-size        # also hard-require same size …
+python find_dupes.py --require-color       # … and a shared color
+python find_dupes.py --report dupes.md     # also write a Markdown report
+```
+
+Example output:
+
+```
+  1. Versace VE4471B Shiny Black  $665  [Cat Eye]
+     -> Calvin Klein CK22532S Shiny Black  $300  (save $365, fit 1.00, Δ0.0mm)
+        rim ✓  size ✓  color ✓   (Full-Rim/Average/Shiny Black vs Full-Rim/Average/Shiny Black)
+        meas (lw/lh/br/tl mm)  56.0 / 47.0 / 16.0 / 140.0  vs  56.0 / 47.0 / 16.0 / 140.0
 ```
 
 Example output:
@@ -194,11 +276,15 @@ measurements came back empty, delete that record from `specs.json` (or run
 | `config.py` | Loads `YOU_API_KEY` from env / `.env` |
 | `features.py` | **Stage 3** — spec → feature vectors + spec similarity |
 | `imagesim.py` | **Stage 3** — CLIP image embeddings + visual similarity (cached) |
-| `match.py` | **Stage 3** — recommend cheaper look-alikes for a target |
+| `style_profile.py` | **Stage 3** — LLM-normalize descriptions → brand-agnostic style profiles (cached) |
+| `descsim.py` | **Stage 3** — sentence-transformer description embeddings + similarity (cached) |
+| `match.py` | **Stage 3** — recommend cheaper look-alikes for a single target |
+| `find_dupes.py` | **Stage 3** — catalog-wide scan: designer frames → cheaper same-shape dupes |
 | `misc/` | Superseded sitemap-filtering approach (see `misc/README.md`) |
 
-**Generated artifacts** (all gitignored): `sunglasses_urls.json`, `listings.json`,
-`specs.json`, `clip_embeddings.json`, `image_cache/`.
+**Generated artifacts**: `sunglasses_urls.json`, `listings.json`, `specs.json`,
+`clip_embeddings.json`, `image_cache/`, `style_profiles.json`,
+`desc_embeddings.json`. The OpenRouter key lives in `.env.local` (gitignored).
 
 ---
 
@@ -206,14 +292,24 @@ measurements came back empty, delete that record from `specs.json` (or run
 
 ```bash
 pip install youdotcom pydantic                        # scraping
-pip install sentence-transformers pillow scikit-learn requests  # matching (CLIP)
+pip install sentence-transformers pillow scikit-learn requests  # matching (CLIP + text)
+pip install openai                                     # description normalization (OpenRouter)
 ```
 
-Put your key in `Wizardry/.env` (gitignored — never commit):
+Put your You.com key in `Wizardry/.env` (gitignored — never commit):
 
 ```
 YOU_API_KEY=ydc-sk-...
 YOU_CRAWL_TIMEOUT=30        # optional, per-URL crawl timeout
+```
+
+For **description matching**, the OpenRouter key (InsForge AI gateway) is fetched
+into `.env.local` by the CLI — no manual copy needed:
+
+```bash
+npx @insforge/cli ai setup   # writes OPENROUTER_API_KEY to .env.local
+# optional overrides (read by config.py):
+#   OPENROUTER_CHAT_MODEL=openai/gpt-4o-mini   # model used to normalize descriptions
 ```
 
 ---
