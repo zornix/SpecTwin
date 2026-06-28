@@ -99,7 +99,17 @@ remaining weights are renormalized, so matching always degrades gracefully.
   > `gender` (0.08) > `size` (0.07) > `color` (0.05).
 - **Image similarity** (`imagesim.py`) — cosine of **CLIP** (`clip-ViT-B-32`)
   embeddings of each product's primary photo. Images and embeddings are cached
-  (`image_cache/`, `clip_embeddings.json`), so re-runs are cheap.
+  (`image_cache/`, `clip_embeddings.json`), so re-runs are cheap. Embeddings are
+  filled in **parallel** — downloads run across a thread pool and the CLIP encode
+  runs in batches, flushing the cache atomically as batches land (resumable). It
+  fills in lazily during a match, or you can backfill the whole catalog up front:
+
+  ```bash
+  python imagesim.py                  # embed every catalog image (parallel)
+  python imagesim.py --workers 32     # more concurrent downloads (default 16)
+  python imagesim.py --batch-size 128 # larger CLIP encode batches (default 64)
+  python imagesim.py --limit 200      # only the next 200 missing (time cap)
+  ```
 - **Description similarity** (`descsim.py` + `style_profile.py`) — cosine of
   **sentence-transformer** (`all-MiniLM-L6-v2`) embeddings of each frame's
   **style profile**. The raw marketing blurb is first normalized by a small LLM
@@ -141,6 +151,135 @@ python match.py --target 12 --spec-only      # skip image download / CLIP
 >
 > Until a frame is profiled, its raw description is used as a (noisier) fallback,
 > so matching still works before the full build completes.
+
+### The final ranking score
+
+Every candidate is ranked by **one number in `[0, 1]`** — the blended similarity
+to the target produced by `combined_similarity` (`match.py`). **Price is not part
+of the score**; it only acts as a *filter* afterwards (see below).
+
+**1. Top-level blend.** The three signals are combined into a weighted average
+that *renormalizes* whenever a signal is missing, so the score is always on a
+`[0, 1]` scale regardless of which signals are available:
+
+```
+            w_img · image_sim  +  w_text · desc_sim  +  w_spec · spec_sim
+score  =   ───────────────────────────────────────────────────────────────
+                          w_img  +  w_text  +  w_spec
+
+  w_img  = alpha            (image / CLIP weight)
+  w_text = text_weight      (style-profile weight)
+  w_spec = 1 − w_img − w_text   (remainder; spec weight)
+```
+
+If a signal can't be computed (no model/network, or its weight is 0) its term is
+dropped from both numerator and denominator — i.e. the remaining weights are
+renormalized rather than the score silently shrinking.
+
+**2. Default weights.** The **frontend entry point** (`recommend_api.py`) defaults
+to **`alpha = 0.4`, `text_weight = 0.2`** — i.e. all three signals on, with style
+as a light refiner. The `match.py` CLI keeps a simpler `alpha = 0.5`,
+`text_weight = 0.0` (spec+image) default for quick experimentation.
+
+| Mode | Invocation | `w_img` | `w_text` | `w_spec` |
+| --- | --- | --- | --- | --- |
+| **`recommend_api` default** | (no flags) | 0.4 | 0.2 | 0.4 |
+| **`match.py` default** | (no flags) | 0.5 | 0.0 | 0.5 |
+| spec-leaning variant | `--alpha 0.35 --text-weight 0.2` | 0.35 | 0.2 | 0.45 |
+| `--spec-only` | spec signal only | — | — | 1.0 |
+| `--desc-only` | style signal only | — | 1.0 | — |
+
+So the production ranking is **`0.4 · image_sim + 0.2 · desc_sim + 0.4 · spec_sim`**.
+The style signal is weighted as a light **refiner** (0.2): the style profile
+partially overlaps `shape` already in the spec signal, so it nudges ties toward
+frames with the same *aesthetic* without overriding the hard physical signals.
+Style-profile coverage is ~complete (1501/1502 frames), so the signal is reliable
+for nearly every target.
+
+**3. What each signal is.**
+
+- **`image_sim`** — cosine similarity of **CLIP** (`clip-ViT-B-32`) embeddings of
+  the two primary photos (`imagesim.py`).
+- **`desc_sim`** — cosine similarity of **sentence-transformer**
+  (`all-MiniLM-L6-v2`) embeddings of the brand-agnostic **style profiles**
+  (`descsim.py` + `style_profile.py`).
+- **`spec_sim`** — itself a **50/50 sub-blend** (`features.py`,
+  `spec_similarity_matrix`):
+
+  ```
+  spec_sim = 0.5 · numeric_sim + 0.5 · categorical_sim
+  ```
+
+  - **`numeric_sim`** — the four measurements (lens width/height, bridge, temple)
+    are **z-scored** across the catalog, then similarity is a **Gaussian on
+    Euclidean distance**: `exp(−distance / 2)`. Missing measurements are imputed
+    with the column mean.
+  - **`categorical_sim`** — a **weighted Jaccard overlap** of token sets, with
+    shape dominating because it defines the silhouette:
+
+    | Field | Weight |
+    | --- | --- |
+    | `shape` | 0.45 |
+    | `rim_type` | 0.20 |
+    | `material` | 0.15 |
+    | `gender` | 0.08 |
+    | `size` | 0.07 |
+    | `color` | 0.05 |
+
+    For each field the score adds `weight · |A ∩ B| / |A ∪ B|`; fields where
+    *neither* frame has a value are treated as neutral (skipped), and the total is
+    normalized by the summed weights of the fields that counted.
+
+**4. Price is a filter, not a term.** `recommend()` sorts candidates by `score`
+descending, removes the target itself, then — when `cheaper_only=True` (the
+default) — **skips any candidate priced `≥` the target** before taking the top-N.
+Two candidates are therefore ordered purely by similarity; how *much* cheaper one
+is never changes its rank. The `savings` field in the payload is display-only.
+
+> **Cross-mode caveat.** Scores are only comparable *within* one weighting. A
+> `--spec-only` score and a blended score live on different scales, so pick one
+> weighting for the live flow and keep it consistent.
+
+### Frontend entry point (`recommend_api.py`)
+
+`match.py` is a CLI that prints text. `recommend_api.py` wraps the same blended
+matching (`combined_similarity` + `recommend`) behind a single function that
+takes a **catalog URL** and returns a **JSON payload** ready to render — each
+candidate carries `image`, `price`, `url`, `brand`, `name`, and a normalized
+`similarity` score (plus `savings` vs. the target). A known URL resolves from
+the cache with no scraping/embedding at request time, so it's safe to call from
+an API handler. It defaults to the production blend
+**`0.4 image + 0.2 style + 0.4 spec`** (see *The final ranking score* above).
+
+```python
+from recommend_api import recommend_by_url
+payload = recommend_by_url(url, top_n=3)                  # default 0.4/0.2/0.4 blend
+payload = recommend_by_url(url, top_n=3, alpha=0.35, text_weight=0.2)  # spec-leaning
+```
+
+```bash
+python recommend_api.py --pretty <url>                 # default blend (image+style+spec)
+python recommend_api.py --alpha 0.35 --text-weight 0.2 <url>  # spec-leaning variant
+python recommend_api.py --spec-only <url>              # no CLIP download
+python recommend_api.py --include-pricier <url>        # rank by similarity, ignore price
+```
+
+Payload shape (`ok:false` with an `error` code on catalog-empty / URL-not-found):
+
+```json
+{
+  "ok": true,
+  "query_url": "https://www.glassesusa.com/.../46-000638.html",
+  "weights": { "mode": "blended", "image": 0.4, "description": 0.2, "spec": 0.4 },
+  "cheaper_only": true,
+  "target":  { "url": "...", "brand": "Oakley", "name": "...", "price": 184.0, "image": "...", "shape": "Square, Wrap" },
+  "count": 3,
+  "candidates": [
+    { "rank": 1, "url": "...", "brand": "Oakley", "name": "Oakley OO9497 Briza Black, Gray",
+      "price": 150.0, "image": "...", "shape": "Square", "similarity": 0.9077, "savings": 34.0 }
+  ]
+}
+```
 
 ### Catalog-wide dupe finder (`find_dupes.py`)
 
@@ -279,6 +418,7 @@ measurements came back empty, delete that record from `specs.json` (or run
 | `style_profile.py` | **Stage 3** — LLM-normalize descriptions → brand-agnostic style profiles (cached) |
 | `descsim.py` | **Stage 3** — sentence-transformer description embeddings + similarity (cached) |
 | `match.py` | **Stage 3** — recommend cheaper look-alikes for a single target |
+| `recommend_api.py` | **Stage 3** — URL → top-N look-alikes as a frontend-ready JSON payload |
 | `find_dupes.py` | **Stage 3** — catalog-wide scan: designer frames → cheaper same-shape dupes |
 | `misc/` | Superseded sitemap-filtering approach (see `misc/README.md`) |
 
