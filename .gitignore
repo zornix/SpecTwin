@@ -13,3 +13,6 @@
 .roo
 .trae
 .windsurf
+
+# Local environment secrets
+.env*.local

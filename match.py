@@ -1,18 +1,23 @@
 """Recommend cheaper look-alike sunglasses for a (usually pricier) target.
 
-Combines two similarity signals over ``specs.json``:
+Combines up to three similarity signals over ``specs.json``:
 
   * spec similarity  — frame measurements + shape/rim/material/etc. (``features``)
   * visual similarity — CLIP embeddings of the product photos (``imagesim``)
+  * description similarity — sentence-transformer embeddings of each frame's
+    brand-agnostic *style profile* (``descsim`` + ``style_profile``)
 
-into ``score = alpha * image + (1 - alpha) * spec``, then for a chosen target
+into ``score = w_img*image + w_text*description + w_spec*spec`` (weights are
+``alpha``, ``--text-weight``, and the remainder), then for a chosen target
 returns the most similar items priced below it.
 
 Usage:
     python match.py                                  # list the catalog (index, price, name)
     python match.py --target ray-ban-rb2132          # match by url/brand/name substring
     python match.py --target 0 --top 5               # match by catalog index
-    python match.py --target ray-ban --alpha 0.6     # weight visual similarity higher
+    python match.py --target ray-ban --alpha 0.6     # weight visual (CLIP) similarity higher
+    python match.py --target ray-ban --text-weight 0.4  # add description-style similarity
+    python match.py --target ray-ban --desc-only     # match purely on description style
     python match.py --target ray-ban --spec-only     # skip CLIP (no image download)
 """
 from __future__ import annotations
@@ -54,19 +59,60 @@ def find_target(specs: List[dict], target: str) -> Optional[int]:
     return None
 
 
-def combined_similarity(specs: List[dict], alpha: float, spec_only: bool) -> np.ndarray:
-    """Blend spec and (optionally) image similarity into one (n, n) matrix."""
-    spec_sim = spec_similarity_matrix(specs)
-    if spec_only or alpha <= 0:
-        return spec_sim
-    try:
-        from imagesim import embed_specs, image_similarity_matrix
+def _image_similarity(specs: List[dict]) -> np.ndarray:
+    from imagesim import embed_specs, image_similarity_matrix
 
-        img_sim = image_similarity_matrix(embed_specs(specs))
-    except Exception as exc:  # model/network unavailable — degrade gracefully
-        print(f"  (image similarity unavailable: {exc}; using spec-only)")
-        return spec_sim
-    return alpha * img_sim + (1.0 - alpha) * spec_sim
+    return image_similarity_matrix(embed_specs(specs))
+
+
+def _description_similarity(specs: List[dict]) -> np.ndarray:
+    from descsim import embed_specs as embed_desc, text_similarity_matrix
+
+    return text_similarity_matrix(embed_desc(specs))
+
+
+def combined_similarity(
+    specs: List[dict],
+    alpha: float,
+    text_weight: float = 0.0,
+    spec_only: bool = False,
+    desc_only: bool = False,
+) -> np.ndarray:
+    """Blend spec, image, and description similarity into one (n, n) matrix.
+
+    Weights: image=``alpha``, description=``text_weight``, spec=the remainder.
+    Any optional signal that is unavailable (no model/network) is dropped and the
+    remaining weights are renormalized, so matching always degrades gracefully.
+    """
+    if spec_only:
+        return spec_similarity_matrix(specs)
+    if desc_only:
+        try:
+            return _description_similarity(specs)
+        except Exception as exc:  # model unavailable — degrade gracefully
+            print(f"  (description similarity unavailable: {exc}; using spec-only)")
+            return spec_similarity_matrix(specs)
+
+    w_img = max(0.0, alpha)
+    w_text = max(0.0, text_weight)
+    w_spec = max(0.0, 1.0 - w_img - w_text)
+
+    components: List[tuple[float, np.ndarray]] = [(w_spec, spec_similarity_matrix(specs))]
+    if w_img > 0:
+        try:
+            components.append((w_img, _image_similarity(specs)))
+        except Exception as exc:
+            print(f"  (image similarity unavailable: {exc}; dropping image signal)")
+    if w_text > 0:
+        try:
+            components.append((w_text, _description_similarity(specs)))
+        except Exception as exc:
+            print(f"  (description similarity unavailable: {exc}; dropping text signal)")
+
+    total = sum(w for w, _ in components)
+    if total <= 0:
+        return spec_similarity_matrix(specs)
+    return sum(w * m for w, m in components) / total
 
 
 def recommend(
@@ -119,17 +165,28 @@ def main(argv: List[str]) -> int:
 
     top_n = int(flag("--top", 5))
     alpha = float(flag("--alpha", 0.5))
+    text_weight = float(flag("--text-weight", 0.0))
     spec_only = "--spec-only" in argv
+    desc_only = "--desc-only" in argv
 
     print(f"Target: {_label(specs[idx])}  shape={specs[idx].get('shape')}\n")
-    sim = combined_similarity(specs, alpha, spec_only)
+    sim = combined_similarity(specs, alpha, text_weight, spec_only, desc_only)
     recs = recommend(specs, idx, sim, top_n=top_n)
 
     if not recs:
         print("No cheaper look-alikes found.")
         return 0
 
-    print(f"Cheaper look-alikes (alpha={alpha}, {'spec-only' if spec_only else 'spec+image'}):\n")
+    if spec_only:
+        blend = "spec-only"
+    elif desc_only:
+        blend = "description-only"
+    else:
+        w_img = max(0.0, alpha)
+        w_text = max(0.0, text_weight)
+        w_spec = max(0.0, 1.0 - w_img - w_text)
+        blend = f"image={w_img:g} description={w_text:g} spec={w_spec:g}"
+    print(f"Cheaper look-alikes ({blend}):\n")
     tprice = specs[idx].get("price")
     for j, score in recs:
         price = specs[j].get("price")
