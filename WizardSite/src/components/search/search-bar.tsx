@@ -12,14 +12,17 @@ const UrlSchema = z.string().trim().url();
 
 const EXAMPLES = [
   {
-    label: "Ray-Ban Wayfarer",
-    url: "https://www.ray-ban.com/usa/sunglasses/RB2140",
+    label: "Persol PO3333S Elio",
+    url: "https://www.glassesusa.com/tortoisegreen-large/persol-po3333s-elio-tortoise-green/46-008316.html",
   },
   {
-    label: "Oakley Holbrook",
-    url: "https://www.oakley.com/en-us/product/W0OO9102",
+    label: "Burberry BE4423",
+    url: "https://www.glassesusa.com/tortoise-large/burberry-be4423-tortoise/46-006392.html",
   },
-  { label: "Persol 649", url: "https://www.persol.com/usa/0PO0649" },
+  {
+    label: "Burberry BE4492",
+    url: "https://www.glassesusa.com/blackgray-medium/burberry-be4492-black-gray/46-010139.html",
+  },
 ];
 
 export function SearchBar({

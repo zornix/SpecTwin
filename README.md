@@ -281,6 +281,17 @@ Payload shape (`ok:false` with an `error` code on catalog-empty / URL-not-found)
 }
 ```
 
+### Web frontend (`WizardSite/`)
+
+The `WizardSite/` Next.js app is the demo UI: paste a catalog URL, see the
+reference frame plus its top cheaper twins (match score, brand/name, price, link,
+image). It talks to a small FastAPI service in `WizardSite/service/` that reuses
+this same matching stack — `engine.py` builds the similarity matrix once at
+startup (via `match.py`/`features`/`imagesim`/`descsim`) and `catalog_adapter.py`
+maps each raw spec record into the app's camelCase contract. Run it with
+`uvicorn main:app --port 8001` from `WizardSite/service/`; see
+[`WizardSite/README.md`](WizardSite/README.md).
+
 ### Catalog-wide dupe finder (`find_dupes.py`)
 
 `match.py` answers *"given one target, show cheaper look-alikes."* `find_dupes.py`

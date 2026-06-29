@@ -3,9 +3,11 @@
 Paste a link to any pair of sunglasses and Spectra surfaces spec-for-spec
 alternatives that cost less — *pay for the optics, not the logo*.
 
-This repo is the **scaffold**: a gorgeous, canonical, scrollable site with the
-full UI working end-to-end on typed mock data. The real scraping/matching brains
-swap in later behind a single seam (`src/lib/api.ts`).
+The UI works end-to-end against the **real matching engine**: paste a GlassesUSA
+listing and the FastAPI service (`/service`) ranks cheaper, spec-similar twins
+from a ~1,500-frame catalog. With no backend running it still works, falling back
+to a typed local matcher. Everything is swapped behind a single seam
+(`src/lib/api.ts`).
 
 ## Stack
 
@@ -52,24 +54,29 @@ pages and the API route:
 - **`MATCHING_SERVICE_URL` set** → proxies to the FastAPI service, with the local
   matcher as an automatic fallback if it's down
 
-### Optional: run the FastAPI engine
+### Run the real engine (recommended for the demo)
+
+The FastAPI service wraps the repo-root recommendation stack over the live
+`specs.json` catalog. It reuses the root project's Python environment:
 
 ```bash
 cd service
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+uvicorn main:app --port 8001
 ```
 
-```bash
-# repo root
-echo "MATCHING_SERVICE_URL=http://localhost:8000" >> .env.local
-# restart pnpm dev — results now come from Python
+`MATCHING_SERVICE_URL=http://localhost:8001` is already set in `.env.local`
+(port `8001` because `8000` is taken on this machine). Restart `pnpm dev` and
+results come from Python — the footer reads **"FastAPI engine · live catalog."**
+
+Demo URLs (all in the catalog, wired into the search bar's *Try* chips):
+
+```
+https://www.glassesusa.com/tortoisegreen-large/persol-po3333s-elio-tortoise-green/46-008316.html
+https://www.glassesusa.com/tortoise-large/burberry-be4423-tortoise/46-006392.html
+https://www.glassesusa.com/blackgray-medium/burberry-be4492-black-gray/46-010139.html
 ```
 
-See [`service/README.md`](service/README.md) for details. The Python
-`models` / `mock_data` / `matcher` modules mirror their TS counterparts in
-`src/lib/`.
+See [`service/README.md`](service/README.md) for architecture and env tunables.
 
 ## Deploy
 
@@ -81,6 +88,8 @@ See [`service/README.md`](service/README.md) for details. The Python
 ## Notes
 
 - The app is **locked to dark mode** (`ThemeProvider` `forcedTheme="dark"`).
-- Product images are **on-brand SVG illustrations** (`product-image.tsx`) so the
-  demo never shows a broken image; `imageUrl` is reserved for real photography.
-- All prices/specs are **illustrative mock data**.
+- Cards render the **real product photo** (`frame-photo.tsx`) when the model
+  carries an `imageUrl`, falling back to the on-brand SVG illustration
+  (`product-image.tsx`) if it's missing or fails to load.
+- Prices/specs come from public GlassesUSA listings (via `specs.json`) and may be
+  out of date.

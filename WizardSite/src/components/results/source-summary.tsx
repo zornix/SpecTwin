@@ -1,6 +1,6 @@
 import { ExternalLink } from "lucide-react";
 
-import { ProductImage } from "@/components/common/product-image";
+import { FramePhoto } from "@/components/common/frame-photo";
 import type { Sunglasses } from "@/lib/types";
 import { formatPrice, titleCase } from "@/lib/utils";
 
@@ -19,7 +19,7 @@ export function SourceSummary({ source }: { source: Sunglasses }) {
   return (
     <div className="grid border border-border bg-card md:grid-cols-[minmax(0,0.9fr)_1.3fr]">
       <div className="relative border-b border-border bg-paper-deep md:border-b-0 md:border-r">
-        <ProductImage item={source} priority />
+        <FramePhoto item={source} priority />
       </div>
 
       <div className="p-6 sm:p-9">

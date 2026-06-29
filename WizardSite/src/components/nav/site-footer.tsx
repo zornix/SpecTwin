@@ -62,8 +62,8 @@ export function SiteFooter() {
         <div className="mt-10 flex flex-col gap-3 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 SpecTwin. A demo project — not affiliated with any brand shown.</p>
           <p className="max-w-md text-pretty">
-            Prices and specs are illustrative mock data. Confirm details on the
-            retailer&apos;s site before buying.
+            Prices and specs come from public catalog listings and may be out of
+            date. Confirm details on the retailer&apos;s site before buying.
           </p>
         </div>
       </Container>

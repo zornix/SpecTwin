@@ -54,7 +54,7 @@ const FAQS = [
   },
   {
     q: "Where do prices and specs come from?",
-    a: "In this scaffold they’re illustrative mock data. The production system will read the pasted listing and a live retailer index, then match on the same spec profile.",
+    a: "From a catalog of ~1,500 real frames scraped from GlassesUSA — each with specs, a style profile, and product imagery. A pasted listing is resolved against that catalog and matched on the same spec profile.",
   },
   {
     q: "How is the match score calculated?",

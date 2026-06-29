@@ -19,7 +19,7 @@ const NAV_LINKS = [
   { href: "/#search", label: "Process" },
   { href: "/methodology", label: "Methodology" },
   {
-    href: "/results?url=https://www.ray-ban.com/usa/sunglasses/RB2140",
+    href: "/results?url=https://www.glassesusa.com/tortoise-large/burberry-be4423-tortoise/46-006392.html",
     label: "Live demo",
   },
 ];

@@ -66,7 +66,10 @@ export default async function ResultsPage({
       </div>
 
       <p className="label-mono mt-12 text-center text-muted-foreground">
-        Results · {engine === "fastapi" ? "FastAPI" : "Local"} engine · mock data
+        Results ·{" "}
+        {engine === "fastapi"
+          ? "FastAPI engine · live catalog"
+          : "Local engine · sample data"}
       </p>
     </Container>
   );

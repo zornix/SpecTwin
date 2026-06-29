@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 
-import { ProductImage } from "@/components/common/product-image";
+import { FramePhoto } from "@/components/common/frame-photo";
 import type { SunglassMatch } from "@/lib/types";
 import { cn, formatPrice, titleCase } from "@/lib/utils";
 import { ScoreRing } from "./score-ring";
@@ -25,7 +25,7 @@ export function MatchCard({
     >
       <div className="rule-b relative overflow-hidden bg-paper-deep">
         <div className="transition-transform duration-500 ease-out group-hover:scale-[1.04]">
-          <ProductImage item={match} />
+          <FramePhoto item={match} />
         </div>
         {match.savingsPct > 0 ? (
           <span className="label-mono absolute left-3 top-3 bg-primary px-2 py-1 text-primary-foreground">

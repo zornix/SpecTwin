@@ -1,3 +1,15 @@
+# Web layer
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
 pydantic==2.10.4
+
+# Matching engine (reused from the repo root via engine.py).
+# numpy is always required; the rest power "blended" mode (CLIP image +
+# description similarity). In spec-only mode (MATCH_MODE=spec-only) only numpy
+# is needed. These mirror the root project's environment, where they're already
+# installed — pin to whatever that environment uses.
+numpy
+sentence-transformers
+torch
+Pillow
+requests
