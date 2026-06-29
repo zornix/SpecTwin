@@ -281,16 +281,85 @@ Payload shape (`ok:false` with an `error` code on catalog-empty / URL-not-found)
 }
 ```
 
-### Web frontend (`WizardSite/`)
+---
 
-The `WizardSite/` Next.js app is the demo UI: paste a catalog URL, see the
-reference frame plus its top cheaper twins (match score, brand/name, price, link,
-image). It talks to a small FastAPI service in `WizardSite/service/` that reuses
-this same matching stack — `engine.py` builds the similarity matrix once at
-startup (via `match.py`/`features`/`imagesim`/`descsim`) and `catalog_adapter.py`
-maps each raw spec record into the app's camelCase contract. Run it with
-`uvicorn main:app --port 8001` from `WizardSite/service/`; see
-[`WizardSite/README.md`](WizardSite/README.md).
+## Running the local demo (`WizardSite/`)
+
+The `WizardSite/` Next.js app is the demo UI: paste a GlassesUSA catalog URL and
+see the reference frame plus its top cheaper twins (match score, brand/name,
+price, link, image). It has **two layers**, wired together at a single seam
+(`WizardSite/src/lib/api.ts`):
+
+```
+ browser ──▶ Next.js app (port 3000) ──▶ FastAPI service (port 8001) ──▶ this Python matching stack
+                    │                            engine.py warms the similarity
+                    └── if the service is down,  matrix once at startup, then every
+                        falls back to a built-in /match is a lookup + row sort.
+                        TypeScript matcher (UI never breaks).
+```
+
+The FastAPI service in `WizardSite/service/` reuses this repo's matching stack
+verbatim — `engine.py` builds the similarity matrix once at startup (via
+`match.py` / `features` / `imagesim` / `descsim`) over the live `specs.json`
+catalog, and `catalog_adapter.py` maps each raw spec record into the app's
+camelCase contract.
+
+### Quick start (UI only, no Python backend)
+
+The app runs standalone against its built-in TypeScript matcher — fastest way to
+see the UI:
+
+```bash
+cd WizardSite
+pnpm install
+pnpm dev            # → http://localhost:3000
+```
+
+### Full demo (real matching engine, recommended)
+
+Run the Python service so results come from this repo's blended matcher over the
+full ~1,500-frame catalog. **Two terminals:**
+
+```bash
+# Terminal 1 — the matching service (reuses the repo's Python env: numpy,
+# sentence-transformers, etc.). Port 8001 because 8000 is often taken.
+cd WizardSite/service
+uvicorn main:app --port 8001
+# startup logs: "[wizardsite] catalog ready: <N> frames, mode=blended"
+
+# Terminal 2 — the web app. MATCHING_SERVICE_URL=http://localhost:8001 is
+# already set in WizardSite/.env.local, so it proxies to the service.
+cd WizardSite
+pnpm install        # first run only
+pnpm dev            # → http://localhost:3000
+```
+
+With the service up, the page footer reads **"FastAPI engine · live catalog."**
+If the service is stopped, the app silently falls back to the TS matcher, so the
+UI never breaks. A URL **not** in `specs.json` returns `404` from the service,
+which the app also treats as a fall-back signal.
+
+Demo URLs (all in the catalog, also wired into the search bar's *Try* chips):
+
+```
+https://www.glassesusa.com/tortoisegreen-large/persol-po3333s-elio-tortoise-green/46-008316.html
+https://www.glassesusa.com/tortoise-large/burberry-be4423-tortoise/46-006392.html
+https://www.glassesusa.com/blackgray-medium/burberry-be4492-black-gray/46-010139.html
+```
+
+Hit the service directly to sanity-check it:
+
+```bash
+curl -s http://localhost:8001/health
+curl -s -X POST http://localhost:8001/match -H 'content-type: application/json' \
+  -d '{"url":"https://www.glassesusa.com/tortoise-large/burberry-be4423-tortoise/46-006392.html"}' | jq
+```
+
+The service is tunable via env vars (`MATCH_MODE`, `MATCH_ALPHA`, `MATCH_TEXT`,
+`MATCH_TOP_N`, `ALLOWED_ORIGINS`); it defaults to the production blend
+`0.4 image + 0.2 style + 0.4 spec`. See [`WizardSite/README.md`](WizardSite/README.md)
+and [`WizardSite/service/README.md`](WizardSite/service/README.md) for the full
+UI and service docs.
 
 ### Catalog-wide dupe finder (`find_dupes.py`)
 
@@ -431,6 +500,7 @@ measurements came back empty, delete that record from `specs.json` (or run
 | `match.py` | **Stage 3** — recommend cheaper look-alikes for a single target |
 | `recommend_api.py` | **Stage 3** — URL → top-N look-alikes as a frontend-ready JSON payload |
 | `find_dupes.py` | **Stage 3** — catalog-wide scan: designer frames → cheaper same-shape dupes |
+| `WizardSite/` | **Local demo** — Next.js UI + FastAPI service that reuse the Stage 3 stack |
 | `misc/` | Superseded sitemap-filtering approach (see `misc/README.md`) |
 
 **Generated artifacts**: `sunglasses_urls.json`, `listings.json`, `specs.json`,
